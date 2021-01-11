@@ -12,6 +12,10 @@ a {
     background-origin: padding-box;
     text-decoration: none;
 }
+a:hover {
+    background-image: linear-gradient(to right,#02374e 50%,transparent 50%);
+    text-decoration: none;
+}
 body {
     color: #333333;
 }
@@ -23,4 +27,7 @@ body {
 }
 .main-content h1,.main-content h2,.main-content h3,.main-content h4,.main-content h5,.main-content h6 {
     color: #272A72;
+}
+.page-header a {
+    background-image: none;
 }

@@ -2,10 +2,9 @@
 .page-header {
     color: #fff;
     text-align: center;
-    background: linear-gradient(90deg, rgb(30,19,105,1) 0%, rgb(59,19,105,1) 100%);
+    background-color: #3b1369;
+    background-image: linear-gradient(90deg, #1e1369, #3b1369)
 }
-.main-content {
-    h1,h2,h3,h4,h5 {
-     color: #333333;
-   }
-  }
+h2 {
+    color: #333333;
+}

@@ -2,12 +2,25 @@
 ---
 
 @import "{{ site.theme }}";
+
+a {
+    color: #046b99;
+    background-image: linear-gradient(to right,#046b99 50%,transparent 50%);
+    background-repeat: repeat-x;
+    background-size: 2px 1px;
+    background-position: center bottom 4%;
+    background-origin: padding-box;
+    text-decoration: none;
+}
+body {
+    color: #333333;
+}
 .page-header {
     color: #fff;
     text-align: center;
     background-color: #3b1369;
     background-image: linear-gradient(90deg, #1e1369, #3b1369)
 }
-h2 {
-    color: #333333;
+.main-content h1,.main-content h2,.main-content h3,.main-content h4,.main-content h5,.main-content h6 {
+    color: #272A72;
 }

@@ -13,4 +13,4 @@ Technology supporting equity and inclusion means services are just as easy and f
 
 When diverse teams and vendors representative of our State are supported to research and listen to people like Sofia, Leticia, Gina and Erika from the start of their work, our public services will better reflect and meet the needs of the people they serve. 
 
-[Next Goal](/goal-three.md)
+[Back](/goal/one.md) | [Next](/goal/three.md)

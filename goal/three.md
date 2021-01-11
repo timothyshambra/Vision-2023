@@ -17,4 +17,4 @@ Centralizing and standardizing on commodities makes it easier for us to take adv
 
 Most importantly, achieving this goal will make it faster and easier for teams to solve actual Californians’ problems and serve their needs, such as receiving emergency grant funding, starting businesses, or finding child care. 
 
-[Next Goal](/goal-four.md)
+[Back](/goal/two.md) | [Next](/goal/four.md)

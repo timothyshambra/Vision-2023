@@ -2,6 +2,7 @@
  **Challenge 1.1: How might we make it easier to understand and navigate public services and information?**
  
  Reasons why this challenge matters, and obstacles toward achieving this goal include:
+
  - Public services and the information people need is delivered over three hundred websites managed by over 150 government departments, contributing to inconsistency. 
  - The user experience of California state websites is disconnected and inconsistent, with poor speed and performance common, especially for people using mobile devices.
  - Services don’t always meet the public where they are in terms of mobile devices and interfaces (usually because they were designed for desktop web browsers).
@@ -30,3 +31,5 @@ Reasons why this challenge matters, and obstacles toward achieving this goal inc
  - Inconsistency can lead to questions of bias, capriciousness, and fairness. 
  - Manual steps tend to bottleneck processes, slowing down services, introducing variance, and frustrating staff who want to focus on more meaningful work. Many of these manual steps might not be needed. 
  - Programs often lack the operational insights, dashboards or metrics to identify opportunities to change policy and operations, improve technology, and use automation. Without this information, programs are unable to prioritize changes.
+ 
+[Home](/index.md) | [Next](/challenge/two.md)

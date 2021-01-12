@@ -42,10 +42,12 @@ body {
 .main-sidebar {
     width: 20%;
     padding: 16px;
+    margin: 0 16px;
     background: #f6f6f6;
 }
 .sidebar-nav {
     list-style: none;
+    padding: 0;
 }
 .sidebar-nav li {
     padding: 8px 0;

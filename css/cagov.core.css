@@ -11474,11 +11474,11 @@ body {
 }
 
 a {
-  color: #046B99;
+  color: #3b1369;
 }
 
 a:hover {
-  color: #02374e;
+  color: #170728;
 }
 
 .featured-narrative {
@@ -11605,7 +11605,7 @@ code {
 }
 
 .main-content a:not(.btn) {
-  background-image: linear-gradient(to right, #046B99 50%, transparent 50%);
+  background-image: linear-gradient(to right, #3b1369 50%, transparent 50%);
   background-repeat: repeat-x;
   background-size: 2px 1px;
   background-position: center bottom 4%;
@@ -11614,7 +11614,7 @@ code {
 }
 
 .main-content a:not(.btn):hover {
-  background-image: linear-gradient(to right, #02374e 50%, transparent 50%);
+  background-image: linear-gradient(to right, #170728 50%, transparent 50%);
   text-decoration: none !important;
 }
 
@@ -17927,11 +17927,11 @@ body {
 }
 
 .accordion-list li.tab a {
-  color: #046B99;
+  color: #3b1369;
 }
 
 .accordion-list li.tab a:hover {
-  color: #02374e;
+  color: #170728;
 }
 
 .accordion-list .panel {
@@ -20857,7 +20857,7 @@ blockquote.blockquote-reverse .small:after {
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary .show > .dropdown-toggle, .open > .dropdown-toggle .btn-secondary {
-  color: #02374e;
+  color: #170728;
   background-color: #fff;
   border-color: #000;
 }
@@ -21370,7 +21370,7 @@ fieldset[disabled] .btn-more {
   outline: none;
   min-height: 240px;
   color: #F6F5F8;
-  background: #046B99;
+  background: #3b1369;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

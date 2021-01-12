@@ -81,7 +81,7 @@ body {
 @media screen and (max-width: 42em) {
     .main-content {
         max-width: 80rem;
-        padding: 1rem 3rem;
+        padding: .5rem 1.5rem;
         margin: 0 auto;
         font-size: 1rem;
     }
@@ -95,6 +95,9 @@ body {
         width: 100%;
         margin-right: 0px;
         border-right: 0px;
+    }
+    .nav-item--heading {
+        margin-top: 4px;
     }
     .main-section {
         width: 100%;

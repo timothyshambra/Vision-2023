@@ -91,7 +91,7 @@
         }
 
         .h2 {
-            color:#3b1369;
+            color: #3b1369;
         }
 
         .lead {
@@ -101,32 +101,31 @@
             font-family: 'Montserrat';
         }
 
-        /* .background-purple {
-            background-image:url("/images/background5-purple.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: top center;
-    } */
-   .bear-img {
-       right:-150px;
-       top: -100px;
-       max-height: 600px;
-   }
+        .bg-primary-light-hover:hover,
+        .bg-primary-light-hover:focus {
+            background-color: #F6F5F8 !important;
+        }
 
-   .font-size-20 {
-    font-size:1.3rem !important;
-   }
+        .bear-img {
+            right: -150px;
+            top: -100px;
+            max-height: 600px;
+        }
 
-   .section-primary {
+        .font-size-20 {
+            font-size: 1.3rem !important;
+        }
+
+        .section-primary {
             background: rgb(30, 19, 105);
             background: linear-gradient(90deg, rgba(30, 19, 105, 1) 0%, rgba(59, 19, 105, 1) 100%);
         }
 
-    .gradient-primary-blue {
-        background: rgb(30, 19, 105);
-        background: linear-gradient(90deg, rgba(30, 19, 105, 1) 0%, rgba(59, 19, 105, 1) 100%);
+        .gradient-primary-blue {
+            background: rgb(30, 19, 105);
+            background: linear-gradient(90deg, rgba(30, 19, 105, 1) 0%, rgba(59, 19, 105, 1) 100%);
 
-    }
+        }
     </style>
 </head>
 
@@ -149,12 +148,11 @@
                         <a href="/" class="ca-gov-icon-email"><span class="sr-only">Email</span></a> -->
                     </div>
                     <div class="settings-links">
-                        <!-- <a href="/contact.html"><span class="ca-gov-icon-contact-us" aria-hidden="true"></span> Contact Us</a> -->
-                        <a href="translate.html"><span class="ca-gov-icon-globe" aria-hidden="true"></span>
-                            Translate</a>
-                        <button class="btn btn-xs btn-primary" data-toggle="collapse" data-target="#siteSettings"
-                            aria-expanded="false" aria-controls="siteSettings" id="ui-collapse-730"><span
-                                class="ca-gov-icon-gear" aria-hidden="true"></span> Settings</button>
+
+                        <!--componetns/utility-links.js component-->
+                        <utility-links></utility-links>
+
+
                     </div>
                 </div>
             </div>
@@ -238,25 +236,9 @@
 
         <div class="navigation-search">
             <!-- Include Navigation -->
-            <!-- Top Level Navigation Only -->
-            <nav id="navigation" class="main-navigation megadropdown auto-highlight nav no-icons"
-                aria-multiselectable="false" role="tablist" data-nav-id="r7pe8mk1lh">
-                <!--main-navigation-->
-                <ul id="nav_list" class="top-level-nav">
-                    <li class="nav-item">
-                        <a href="#" class="first-level-link">Our Goals</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="first-level-link">What's Next</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="first-level-link">Our Principles</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="first-level-link">Get Involved</a>
-                    </li>
-                </ul>
-            </nav>
+            <!-- components/main-nav.js component -->
+            <main-nav></main-nav>
+
 
             <div id="head-search" class="search-container in" aria-hidden="true" style="top: 86px;">
             </div>
@@ -268,119 +250,122 @@
     <div id="main-content" class="main-content">
         <div class="section-primary p-5 background-purple">
             <div class="container p-b-lg pos-rel">
-                <img src="./images/ca-map-bear-PURPLE.png" class="pos-abs img-fluid bear-img img-fluid" alt="California Bear">
+                <img src="./images/ca-map-bear-PURPLE.png" class="pos-abs img-fluid bear-img img-fluid"
+                    alt="California Bear">
                 <div class="row">
                     <div class="col-md-8">
                         <h1 class="h1">Vision 2023</h1>
 
-                        <p class="lead m-t-md m-b-md">Vision 2023 is California’s Statewide Strategic Plan for the efficient and effective use of technology to meet our society’s goals on big problems that affect us all.</p>
+                        <p class="lead m-t-md m-b-md">Vision 2023 is California’s Statewide Strategic Plan for the
+                            efficient and effective use of technology to meet our society’s goals on big problems that
+                            affect us all.</p>
 
-                        <p>Vision 2023 tells the story of a California using technology for a government that is compassionate, human-centered, and understanding; a government that works, because more efficient and more effective isn’t good enough. Read the <a href="#">letter from the State CIO</a>.</p>
+                        <p>Vision 2023 tells the story of a California using technology for a government that is
+                            compassionate, human-centered, and understanding; a government that works, because more
+                            efficient and more effective isn’t good enough. Read the <a href="#">letter from the State
+                                CIO</a>.</p>
 
                         <div class="btn-row p-t-sm">
-                            <a href="#" class="btn btn-highlight btn-lg rounded-50" role="button">Take part <span class="sr-only">in Vision 2023</span></a>
-                            <a href="#" class="btn btn-outline-light btn-lg rounded-50" role="button">Give <span class="sr-only">us your</span> feedback </a>
+                            <a href="#" class="btn btn-highlight btn-lg rounded-50" role="button">Take part <span
+                                    class="sr-only">in Vision 2023</span></a>
+                            <a href="#" class="btn btn-outline-light btn-lg rounded-50" role="button">Give <span
+                                    class="sr-only">us your</span> feedback </a>
                         </div>
 
                     </div>
-                    
+
                 </div>
             </div>
         </div>
-        <div id="principles" class="section p-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="text-center">
-                            <h2 class="h2 p-4 m-b color-gray-dark">Guiding Principles</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col m-b-lg">
-                        <div class="text-center">
-                            <img class="image-icon rounded-50x m-b" src="./images/people-first.png" alt="Features icon"
-                                style="width:10.71429rem">
-                            <h3 class="h3 m-b-sm color-gray-dark"><a href="">Put people first</a></h3>
-                        </div>
-                        <!-- End Icon Blocks -->
-                    </div>
-                    <div class="col m-b-lg">
-                        <div class="text-center">
-                            <img class="image-icon m-b" src="./images/make-regular.png" alt="Accessibility Icon"
-                                style="width:10.71429rem">
-                            <h3 class="h3 m-b-sm color-gray-dark"><a href="">Make regular, frequent improvement</a></h3>
-                        </div>
-                        <!-- End Icon Blocks -->
-                    </div>
-                    <div class="col m-b-lg">
-                        <div class="text-center">
-                            <img class="image-icon rounded-50x m-b" src="./images/use-and-dev.png" alt="Code icon"
-                                style="width:10.71429rem">
-                            <h3 class="h3 m-b-sm color-gray-dark"><a href="">Use and develop technology together</a>
-                            </h3>
-                        </div>
-                        <!-- End Icon Blocks -->
-                    </div>
-                </div>
+
+        <div class="container p-5">
+            <div class="text-center">
+                <h2 class="h2 m-b p-0 color-gray-dark">Our Goals</h2>
             </div>
-        </div>
-        <div id="goals" class="section-understated p-5">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="h2 p-4 m-b color-gray-dark">Our goals</h2>
+            <div class="group">
+                <div class="fifth m-b-lg transform-scale-1_05--hover transition-0_3">
+
+
+                    <a href="/Wildfire_Incidents" class="no-underline d-block bg-primary-light-hover p-y-md p-x-md"
+                        title="Deliver clear, fast, secure and dependable public services">
+                        <div class="text-center">
+                            <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
+                                    src="/images/icon-goal1.png" alt="fast services icon"></div>
+                            <p class="font-size-20 color-p2">Deliver clear, fast, secure and dependable public services
+                            </p>
+                        </div>
+                    </a>
+
+
+
+
+
+
+
                 </div>
-                <div class="group">
-                    <div class="fifth m-b-lg">
+                <div class="fifth m-b-lg transform-scale-1_05--hover transition-0_3">
+
+
+                    <a href="/Wildfire_Incidents" class="no-underline d-block bg-primary-light-hover p-y-md p-x-md"
+                        title="Ensure public services are equitable and inclusive">
                         <div class="text-center">
-                            <img class="image-icon rounded-50x m-b" src="/images/icon-goal1.png"
-                                alt="fast services icon">
-                            <p class="font-size-20  m-b-sm color-gray-dark"><a href="">Deliver clear, fast, secure and dependable public
-                                services</a></p>
+                            <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
+                                    src="/images/icon-goal2.png" alt="inclusive services icon">
+                            </div>
+                            <p class="font-size-20 color-p2">Ensure public services are equitable and inclusive</p>
                         </div>
-                    </div>
-                    <div class="fifth m-b-lg">
+                    </a>
+
+                </div>
+                <div class="fifth m-b-lg transform-scale-1_05--hover transition-0_3">
+                    <a href="/Wildfire_Incidents" class="no-underline d-block bg-primary-light-hover p-y-md p-x-md"
+                        title="Make it easier to share and reuse technology across government">
                         <div class="text-center">
-                            <img class="image-icon rounded-50x m-b" src="/images/icon-goal2.png"
-                                alt="inclusive services icon">
-                            <p class="font-size-20  m-b-sm color-gray-dark"><a href="">Ensure public services are equitable and inclusive
-                            </a></p>
+                            <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
+                                    src="/images/icon-goal3.png" alt="reuse technology icon"></div>
+                            <p class="font-size-20 color-p2">Make it easier to share and reuse technology across
+                                government</p>
                         </div>
-                    </div>
-                    <div class="fifth m-b-lg">
-                        <div class="text-center">
-                            <img class="image-icon rounded-50x m-b" src="/images/icon-goal3.png"
-                                alt="reuse technology icon">
-                            <p class="font-size-20  m-b-sm color-gray-dark"><a href="">Make it easier to share and reuse technology across
-                                government</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="fifth m-b-lg">
-                        <div class="text-center">
-                            <img class="image-icon rounded-50x m-b" src="/images/icon-goal4.png"
-                                alt="Transform icon">
-                            <p class="font-size-20  m-b-sm color-gray-dark"><a href="">Transform government services more quickly and more
-                                effectively</a></p>
-                        </div>
-                    </div>
-                    <div class="fifth m-b-lg">
-                        <div class="text-center">
-                            <img class="image-icon rounded-50x m-b" src="/images/icon-goal5.png"
-                                alt="multi-disciplinary teams icon">
-                            <p class="font-size-20 m-b-sm color-gray-dark"><a href="">Build integrated, multi-disciplinary teams empowered to
-                                transform public services</a>
-                            </p>
-                        </div>
-                    </div>
+                    </a>
                 </div>
 
-                <div class="text-center">
-                    <a href="#" class="btn btn-outline-primary btn-hover btn-lg rounded-50" role="button">Learn more <span class="sr-only">about our goals</span></a>
+                <div class="fifth m-b-lg transform-scale-1_05--hover transition-0_3">
+                    <a href="/Wildfire_Incidents" class="no-underline d-block bg-primary-light-hover p-y-md p-x-md"
+                        title="Transform government services more quickly and more  effectively">
+                        <div class="text-center">
+                            <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
+                                    src="/images/icon-goal4.png" alt="Transform icon">
+                            </div>
+                            <p class="font-size-20 color-p2">Transform government services more quickly and more
+                                effectively</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="fifth m-b-lg transform-scale-1_05--hover transition-0_3">
+
+                    <a href="/Wildfire_Incidents" class="no-underline d-block bg-primary-light-hover p-y-md p-x-md"
+                        title="Build integrated, multi-disciplinary teams empowered to  transform public services">
+                        <div class="text-center">
+                            <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
+                                    src="/images/icon-goal5.png" alt="multi-disciplinary teams icon">
+                            </div>
+                            <p class="font-size-20 color-p2">Build integrated, multi-disciplinary teams empowered to
+                                transform public services</p>
+                        </div>
+                    </a>
+
                 </div>
             </div>
+
+            <div class="text-center">
+                <a href="#" class="btn btn-outline-primary btn-hover btn-lg rounded-50" role="button">Learn more <span
+                        class="sr-only">about our goals</span></a>
+            </div>
         </div>
-        <div id="steps" class="section p-5">
+
+
+
+        <div class="section-understated  p-5">
             <div class="container">
                 <div class="text-center">
                     <h2 class="h2 p-4 m-b color-gray-dark">What's next</h2>
@@ -418,7 +403,8 @@
                                     class="dot-line-inner bg-primary-light bg-primary-before brd-primary-light"></span>
                             </i>
                             <!-- <h3 class="h5 m-b">Step 3</h3> -->
-                            <p class="m-b-0 mt-4"><a href=""class="color-p3">Develop 2021 objectives and key results (March of 2021)</a></p>
+                            <p class="m-b-0 mt-4"><a href="" class="color-p3">Develop 2021 objectives and key results
+                                    (March of 2021)</a></p>
                         </div>
                         <!-- End Static Process -->
                     </div>
@@ -426,7 +412,8 @@
                         <!-- Static Process -->
                         <div class="text-center">
                             <i class="dot-line progress-bold brd-primary-light-before brd-transparent-after">
-                                <span class="dot-line-inner bg-primary-light  bg-primary-before  brd-primary-light"></span>
+                                <span
+                                    class="dot-line-inner bg-primary-light  bg-primary-before  brd-primary-light"></span>
                             </i>
                             <!-- <h3 class="h5 m-b">Step 4</h3> -->
                             <p class="m-b-0 mt-4"><a href="" class="color-p3">Do the work (Rest of 2021)</a></p>
@@ -445,35 +432,51 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="text-center">
-                            <h2 class="h2 p-4 m-b color-gray-dark">Guiding Principles</h2>
+                            <h2 class="h2 p-b-0 m-b color-gray-dark">Guiding Principles</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 m-b-lg">
-                        <div class="text-center">
-                            <img class="image-icon rounded-50x m-b" src="/images/value-one.svg" alt="Put people first icon"
-                                style="width:10.71429rem">
-                                <p class="font-size-20 m-b-sm"><a href="">Put people first</a></p>
-                        </div>
-                        <!-- End Icon Blocks -->
+                    <div class="col-md-4 m-b-lg transform-scale-1_05--hover transition-0_3">
+                        <a href="/Wildfire_Incidents" class="no-underline d-block bg-primary-light-hover p-y-md p-x-md"
+                            title="Put people first">
+                            <div class="text-center">
+                                <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
+                                        src="/images/value-one.svg" alt="Put people first icon"
+                                        style="width:10.71429rem">
+                                </div>
+                                <p class="font-size-20 color-p2">Put people first</p>
+                            </div>
+                        </a>
+
                     </div>
-                    <div class="col-md-4 m-b-lg">
-                        <div class="text-center">
-                            <img class="image-icon m-b" src="/images/value-two.svg" alt="Make improvements Icon"
-                                style="width:10.71429rem">
-                                <p class="font-size-20 m-b-sm"><a href="">Make Regular, Frequent improvement</a></p>
-                        </div>
-                        <!-- End Icon Blocks -->
+                    <div class="col-md-4 m-b-lg transform-scale-1_05--hover transition-0_3">
+                        <a href="/Wildfire_Incidents" class="no-underline d-block bg-primary-light-hover p-y-md p-x-md"
+                            title="Make Regular, Frequent improvement">
+                            <div class="text-center">
+                                <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
+                                        src="/images/value-two.svg" alt="Make improvements Icon"
+                                        style="width:10.71429rem">
+                                </div>
+                                <p class="font-size-20 color-p2">Make Regular, Frequent improvement</p>
+                            </div>
+                        </a>
+
+
                     </div>
-                    <div class="col-md-4 m-b-lg">
-                        <div class="text-center">
-                            <img class="image-icon rounded-50x m-b" src="/images/value-three.svg" alt="Develop together icon"
-                                style="width:10.71429rem">
-                                <p class="font-size-20 m-b-sm"><a href="">Use and develop technology together</a>
-                                </p>
-                        </div>
-                        <!-- End Icon Blocks -->
+                    <div class="col-md-4 m-b-lg transform-scale-1_05--hover transition-0_3">
+                        <a href="/Wildfire_Incidents" class="no-underline d-block bg-primary-light-hover p-y-md p-x-md"
+                            title="Use and develop technology together">
+                            <div class="text-center">
+                                <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
+                                        src="/images/value-three.svg" alt="Develop together icon"
+                                        style="width:10.71429rem">
+                                </div>
+                                <p class="font-size-20 color-p2">Use and develop technology together</p>
+                            </div>
+                        </a>
+
+
                     </div>
                 </div>
             </div>
@@ -493,9 +496,10 @@
                                 inspire our work.</p>
                             <div class="group p-t-md p-b-sm">
                                 <a href="" class="btn btn-highlight rounded-50 p-x-md m-r-sm" role="button"> <span
-                                    class="ca-gov-icon-puzzle-piece" aria-hidden="true"></span> Take part</a>
-                                <a href="" class="btn btn-outline-primary btn-hover p-x-md rounded-50 m-l-sm" role="button"><span
-                                        class="ca-gov-icon-chat-bubble" aria-hidden="true"></span> Give feedback</a>
+                                        class="ca-gov-icon-puzzle-piece" aria-hidden="true"></span> Take part</a>
+                                <a href="" class="btn btn-outline-primary btn-hover p-x-md rounded-50 m-l-sm"
+                                    role="button"><span class="ca-gov-icon-chat-bubble" aria-hidden="true"></span> Give
+                                    feedback</a>
                             </div>
                         </div>
                     </div>
@@ -516,20 +520,8 @@
         </div>
         <div class="section-standout p-y-lg">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <ul class="list-none">
-                            <li class="p-3"><a href="">Our process</a></li>
-                            <li class="p-3"><a href="">Our strategy for getting to vision 2023</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm">
-                        <ul class="list-none">
-                            <li class="m-y"><a href="">Our thanks to</a></li>
-                            <li class="m-y"><a href="">Vision 2023 benefits from the work of</a></li>
-                        </ul>
-                    </div>
-                </div>
+                <!-- components/footer-links.js component -->
+                <footer-links></footer-links>
             </div>
         </div>
 
@@ -539,44 +531,18 @@
 
     <!-- Global Footer -->
     <footer id="footer" class="global-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="three-quarters">
-                        <ul class="footer-links">
-                            <li>
-                                <a href="#skip-to-content">Back to Top</a>
-                            </li>
-                            <li>
-                                <a href="https://www.ca.gov/use/">Conditions of Use</a>
-                            </li>
-                            <li>
-                                <a href="https://www.ca.gov/privacy-policy/">Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a href="https://www.ca.gov/accessibility/">Accessibility</a>
-                            </li>
-                        
-                        </ul>
-                    </div>
-                    <div class="quarter text-right">
-                        <ul class="socialsharer-container">
-                            <li>
-                                <a href="https://www.facebook.com/sharer.pp?u=">
-                                    <span class="ca-gov-icon-facebook" aria-hidden="true"></span><span
-                                        class="sr-only">Facebook</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/intent/tweet?url=https://vision2023.cdt.ca.gov/">
-                                    <span class="ca-gov-icon-twitter" aria-hidden="true"></span><span
-                                        class="sr-only">Twitter</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="three-quarters">
+
+                    <!-- components/footer-nav.js component -->
+                    <footer-nav></footer-nav>
+
                 </div>
 
             </div>
+
+        </div>
         <!-- Copyright Statement -->
         <div class="copyright">
             <div class="container">
@@ -590,46 +556,18 @@
     <!-- Extra Decorative Content -->
     <div class="decoration-last">&nbsp;</div>
 
-    <!-- State Template JavaScript CDN -->
-    <script src="https://california.azureedge.net/cdt/statetemplate/6.0.2/js/cagov.core.js"></script>
 
-    <!--Translate-->
-    <script type="text/javascript" src="./f.txt"></script>
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
-        }</script>
-    <div id="goog-gt-tt" class="skiptranslate" dir="ltr">
-        <div style="padding: 8px;">
-            <div>
-                <div class="logo"><img src="./translate_24dp.png" width="20" height="20" alt="Google Translate"></div>
-            </div>
-        </div>
-        <div class="top" style="padding: 8px; float: left; width: 100%;">
-            <h1 class="title gray">Original text</h1>
-        </div>
-        <div class="middle" style="padding: 8px;">
-            <div class="original-text"></div>
-        </div>
-        <div class="bottom" style="padding: 8px;">
-            <div class="activity-links"><span class="activity-link">Contribute a better translation</span><span
-                    class="activity-link"></span></div>
-            <div class="started-activity-container">
-                <hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;">
-                <div class="activity-root"></div>
-            </div>
-        </div>
-        <div class="status-message" style="display: none;"></div>
-    </div>
-    <div class="goog-te-spinner-pos">
-        <div class="goog-te-spinner-animation">
-            <svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px"
-                viewBox="0 0 66 66">
-                <circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33"
-                    r="30"></circle>
-            </svg>
-        </div>
-    </div>
+
+    <!-- Load template core -->
+    <script src="/js/cagov.core.js"></script>
+
+
+    <!--LOAD COMPONENTS-->
+    <script src="/components/main-nav.js"></script>
+    <script src="/components/utility-links.js"></script>
+    <script src="/components/footer-links.js"></script>
+    <script src="/components/footer-nav.js"></script>
+
 </body>
 
 </html>

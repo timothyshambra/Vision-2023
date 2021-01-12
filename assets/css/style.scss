@@ -61,7 +61,12 @@ body {
 .sidebar-nav li {
     padding: 8px 0;
 }
+.sidebar-nav li a {
+    color: #333333;
+    font-size: 1rem;
+}
 .nav-item--heading {
+    margin-top: 8px;
     font-weight: 600;
 }
 .main-section {

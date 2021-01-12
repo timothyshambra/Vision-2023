@@ -15,4 +15,4 @@ Faster public services means learning how to identify bottlenecks in not just pu
 
 We’ve seen and heard that the quality of our public services is inconsistent. Before COVID-19, some services could only be applied for in person. Some services can be used online, but at a computer, not on a phone. In others, people keep entering the wrong information, showing the need to make services easier to understand and use. Policies often mean services are delivered slowly because they don’t allow automation, or automation is used but inconsistently. Many people aren’t confident enough to use online services, and find them confusing or alienating. Lastly, programs that do want to make improvements often don’t have the ability or capacity to. 
 
-[Home](/index.md) | [Next](/challenge/two.md)
+[Home](/index.html) | [Next](./challenge/two.html)

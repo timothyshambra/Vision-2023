@@ -9,4 +9,4 @@ These large complex programs usually involve older technology infrastructure (â€
 
 Lastly, we found a common need to be organized for continuous learning. Making success easy to copy, and making failures easy to learn from, is key to building digital government more quickly, and more effectively. 
 
-[Back](/goal/three.md) | [Next](/goal/five.md)
+[Back](./goal/three.html) | [Next](./goal/five.html)

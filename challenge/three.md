@@ -54,4 +54,4 @@ Reasons why this challenge matters, and obstacles toward achieving this goal inc
  - Work needs to be done to understand user needs and expectations about how and when government shares information, transparency and informed consent, and to develop and implement successful patterns.
  - All users and stakeholders have a right and expectation to privacy and security of their information.
 
- [Back](/challenge/two.md) | [Next](/challenge/four.md)
+ [Back](./challenge/two.html) | [Next](./challenge/four.html)

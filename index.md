@@ -15,5 +15,11 @@ To achieve our vision, we must put people first, make continuous, timely improve
 2. [Ensure public services are equitable and inclusive](./goal/two.html)
 3. [Make common technology easy to access, use, share and reuse across government](./goal/three.html)
 4. [Build digital government more quickly and more effectively](./goal/four.html)
-5. [Build confident, empowered multi-disciplinary teams](./goalfive.html)
+5. [Build confident, empowered multi-disciplinary teams](./goal/five.html)
 
+### Challenges
+1. [Deliver easy to use, fast, dependable and secure public services](./challenge/one.html)
+2. [Ensure public services are equitable and inclusive](./challenge/two.html)
+3. [Make common technology easy to access, use, share and reuse across government](./challenge/three.html)
+4. [Build digital government more quickly and more effectively](./challenge/four.html)
+5. [Build confident, empowered multi-disciplinary teams](./challenge/five.html)

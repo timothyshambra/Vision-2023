@@ -19,7 +19,7 @@
       outline: thick solid invert($body-link-color);
     }
   }
-#main-content a {
+.main-content a {
     color: #046b99;
     background-image: linear-gradient(to right,#046b99 50%,transparent 50%);
     background-repeat: repeat-x;
@@ -28,7 +28,7 @@
     background-origin: padding-box;
     text-decoration: none;
 }
-#main-content a:hover {
+.main-content a:hover {
     background-image: linear-gradient(to right,#02374e 50%,transparent 50%);
     text-decoration: none;
 }

@@ -51,19 +51,20 @@ body {
 .main-sidebar {
     width: 30%;
     padding: 16px;
-    margin-right: 32px;
-    background: #f6f6f6;
+    margin-right: 48px;
+    border-right: 3px solid #f6f6f6;
 }
 .sidebar-nav {
     list-style: none;
     padding: 0;
 }
 .sidebar-nav li {
-    padding: 8px 0;
+    padding-top: 8px;
 }
 .sidebar-nav li a {
     color: #333333;
-    font-size: 1rem;
+    font-size: .9rem;
+    background-image: none;
 }
 .nav-item--heading {
     margin-top: 8px;
@@ -72,4 +73,9 @@ body {
 .main-section {
     width: 70%;
     padding: 16px 0;
+}
+@media screen and (min-width: 42em) {
+    .nav-item {
+        display: none;
+    }
 }

@@ -7,6 +7,4 @@ As well as needing project initiation, budgeting procurement and oversight to be
 
 These large complex programs usually involve older technology infrastructure (“legacy” technology, often running on state mainframes). Achieving our vision requires successful, replicable approaches so these kinds of technology can quickly and efficiently meet people’s continually changing needs. 
 
-Lastly, we found a common need to be organized for continuous learning. Making success easy to copy, and making failures easy to learn from, is key to building digital government more quickly, and more effectively. 
-
-[Back](./three.html) | [Next](./five.html)
+Lastly, we found a common need to be organized for continuous learning. Making success easy to copy, and making failures easy to learn from, is key to building digital government more quickly, and more effectively.

@@ -11,6 +11,4 @@ COVID-19 illustrated how changes to procurement -- dropping the requirement for 
 
 Technology supporting equity and inclusion means services are just as easy and fast for Sofia to use with English as a second language and limited mobility. Leticia and Gina, with their three children have internet access that’s affordable, fast and reliable enough if working from home or home schooling. Widespread internet access means Erika gets her fishing permit from her phone at the river, instead of needing to remember to get it before she drives out in the morning. 
 
-When diverse teams and vendors representative of our State are supported to research and listen to people like Sofia, Leticia, Gina and Erika from the start of their work, our public services will better reflect and meet the needs of the people they serve. 
-
-[Back](./one.html) | [Next](./three.html)
+When diverse teams and vendors representative of our State are supported to research and listen to people like Sofia, Leticia, Gina and Erika from the start of their work, our public services will better reflect and meet the needs of the people they serve.

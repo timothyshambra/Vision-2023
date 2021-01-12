@@ -15,6 +15,7 @@ Reasons why this challenge matters, and obstacles toward achieving this goal inc
 
  - The Department of Finance and the Legislature need regular visibility and confidence that we are appropriately investing and building useful technology at both the service and state-wide enterprise level.
  - An environment focused on projects has left no room to identify or support state-wide common infrastructure or shared services that would provide compound benefits for multiple projects.
+
 **Challenge 4.3: How might we better solve large, complex, state-wide problems like legacy infrastructure modernization and long-term harmonization of infrastructure?**
 
 Reasons why this challenge matters, and obstacles toward achieving this goal include:
@@ -29,5 +30,3 @@ Reasons why this challenge matters, and obstacles toward achieving this goal inc
 - There is no consistent, prioritized or adequately resourced approach to creating the technical documentation and guidance to support learning from project to project. This is required for the state to make the exponential improvement for Vision 2023. 
 - Technology leaders clearly expressed the need for projects to build and apply lessons from each others’ success and failures. 
 - Critical systems rely on the outstanding work of long-term government staff who are nearing retirement.
-
-[Back](./three.html) | [Next](./five.html)

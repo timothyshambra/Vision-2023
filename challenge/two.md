@@ -42,5 +42,3 @@ Reasons why this challenge matters, and obstacles toward achieving this goal inc
 - Even for established vendors, the repetitive work involved in completing solicitation paperwork on successive procurements is a barrier. This is even more burdensome for newer, smaller and typically more diverse vendors.
 - Vendors feel constrained and disincentivized to bid due to solicitations focused on already-determined solutions. Newer, smaller vendors able to offer more innovative responses to requests that outlined problems and needs in plain language are discouraged from doing business with the state.
 - The state is likely missing opportunities for both learning and savings by not making most solicitations open source by default, or allowing successful vendor partnerships to expand across departments.
-
-[Back](./one.html) | [Next](./three.html)

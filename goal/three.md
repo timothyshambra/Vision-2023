@@ -15,6 +15,4 @@ Staff in different departments need to be able to find each other in seconds, co
 
 Centralizing and standardizing on commodities makes it easier for us to take advantage of our scale as the world’s fifth-largest economy, using our size to deliver better services at a responsible cost, allowing us to use our public funds to better serve people, instead of maintaining redundant technology. 
 
-Most importantly, achieving this goal will make it faster and easier for teams to solve actual Californians’ problems and serve their needs, such as receiving emergency grant funding, starting businesses, or finding child care. 
-
-[Back](./two.html) | [Next](./four.html)
+Most importantly, achieving this goal will make it faster and easier for teams to solve actual Californians’ problems and serve their needs, such as receiving emergency grant funding, starting businesses, or finding child care.

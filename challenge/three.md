@@ -53,5 +53,3 @@ Reasons why this challenge matters, and obstacles toward achieving this goal inc
  - Breakdowns in the intersection of policy, operations and technology in identity verification have created operational bottlenecks leading to unacceptably slow service delivery.
  - Work needs to be done to understand user needs and expectations about how and when government shares information, transparency and informed consent, and to develop and implement successful patterns.
  - All users and stakeholders have a right and expectation to privacy and security of their information.
-
- [Back](./two.html) | [Next](./four.html)

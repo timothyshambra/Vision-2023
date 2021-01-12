@@ -19,5 +19,3 @@ The vendor community is a critical part of forming these teams. When COVID-19 fo
 Departments and teams have been successful where disciplines deliberately worked together across silos and organizing around common goals, from bottom up, and from the executive level down. 
 
 In the end, our people and teams are those who do the work. Together, they will build the infrastructure we need, understand the problems that need solving, and deliver our vision of compassionate, human-centered, effective and efficient government.
-
-[Back](./four.html) | [Home](../index.html)

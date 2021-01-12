@@ -1,4 +1,4 @@
-## 4. Build digital government more quickly and more effectively  
+# 4. Build digital government more quickly and more effectively  
 **Challenge 4.1 How can we provide practical, consistent and transparent technology project initiation and oversight that meets different stakeholder needs, from ongoing service improvement to a state-wide enterprise view for prioritization?** 
 
 Reasons why this challenge matters, and obstacles toward achieving this goal include: 

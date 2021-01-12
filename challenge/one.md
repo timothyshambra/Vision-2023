@@ -1,4 +1,4 @@
-### 1. Deliver easy to use, fast, dependable and secure public services
+# 1. Deliver easy to use, fast, dependable and secure public services
  **Challenge 1.1: How might we make it easier to understand and navigate public services and information?**
  
  Reasons why this challenge matters, and obstacles toward achieving this goal include:

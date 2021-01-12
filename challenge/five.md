@@ -1,4 +1,4 @@
-## 5. Build confident, empowered multi-disciplinary teams
+# 5. Build confident, empowered multi-disciplinary teams
 **Challenge 5.1: What do leaders need to confidently and successfully integrate program, operations and technology to continuously improve outcomes?** 
 
 Reasons why this challenge matters, and obstacles toward achieving this goal include: 

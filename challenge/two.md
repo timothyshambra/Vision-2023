@@ -1,4 +1,4 @@
-## 2. Ensure public services are equitable and inclusive
+# 2. Ensure public services are equitable and inclusive
 **Challenge 2.1: How can we ensure all Californians have access to affordable, reliable high performance broadband?**
 
 Reasons why this challenge matters, and obstacles toward achieving this goal include: 

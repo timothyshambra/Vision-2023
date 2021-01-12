@@ -1,4 +1,4 @@
-## 3. Make common technology easy to access, use, share and reuse across government
+# 3. Make common technology easy to access, use, share and reuse across government
 **Challenge 3.1: What standard technology, tools and policy do government staff need to succeed, and how might we make those tools easy to access and use across government?**
 
 Reasons why this challenge matters, and obstacles toward achieving this goal include: 

@@ -1,4 +1,4 @@
-##Executive Summary
+# Executive Summary
 **Vision 2023 is California’s Statewide Strategic Plan to  efficiently and effectively use technology to meet our society’s goals, and make progress on the big, complex problems that affect us all.** 
 
 COVID-19 has reminded us how fragile our communities, businesses, and our lives are. It has shown that our government must do more to be prepared, and where public services must improve.  

@@ -31,3 +31,25 @@ body {
 .page-header a {
     background-image: none;
 }
+.project-tagline {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 820px;
+}
+.flex-container {
+    display: flex;
+}
+.main-sidebar {
+    width: 20%;
+    padding: 16px;
+    background: #f6f6f6;
+}
+.sidebar-nav {
+    list-style: none;
+}
+.sidebar-nav li {
+    padding: 8px 0;
+}
+.main-section {
+    width: 80%;
+}

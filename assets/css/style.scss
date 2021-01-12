@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-a {
+#content a {
     color: #046b99;
     background-image: linear-gradient(to right,#046b99 50%,transparent 50%);
     background-repeat: repeat-x;
@@ -95,6 +95,7 @@ body {
         width: 100%;
         margin-right: 0px;
         border-right: 0px;
+        border-bottom: 3px solid #f6f6f6;
     }
     .nav-item--heading {
         margin-top: 4px;

@@ -66,6 +66,9 @@ body {
     font-size: .9rem;
     background-image: none;
 }
+.nav-item {
+    display: block;
+}
 .nav-item--heading {
     margin-top: 8px;
     font-weight: 600;
@@ -77,5 +80,8 @@ body {
 @media screen and (min-width: 42em) {
     .nav-item {
         display: none;
+    }
+    .flex-container {
+        display: block;
     }
 }

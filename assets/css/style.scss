@@ -65,6 +65,7 @@ body {
     color: #333333;
     font-size: .9rem;
     background-image: none;
+    line-height: 1.2;
 }
 .nav-item {
     display: block;
@@ -78,6 +79,12 @@ body {
     padding: 16px 0;
 }
 @media screen and (max-width: 42em) {
+    .main-content {
+        max-width: 80rem;
+        padding: 1rem 3rem;
+        margin: 0 auto;
+        font-size: 1rem;
+    }
     .nav-item {
         display: none;
     }
@@ -92,4 +99,5 @@ body {
         width: 70%;
         
     }
+    
 }

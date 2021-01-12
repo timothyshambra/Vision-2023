@@ -30,4 +30,4 @@ Reasons why this challenge matters, and obstacles toward achieving this goal inc
 - Technology leaders clearly expressed the need for projects to build and apply lessons from each others’ success and failures. 
 - Critical systems rely on the outstanding work of long-term government staff who are nearing retirement.
 
-[Back](./challenge/three.html) | [Next](./challenge/five.html)
+[Back](./three.html) | [Next](./five.html)

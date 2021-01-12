@@ -32,4 +32,4 @@ Reasons why this challenge matters, and obstacles toward achieving this goal inc
  - Manual steps tend to bottleneck processes, slowing down services, introducing variance, and frustrating staff who want to focus on more meaningful work. Many of these manual steps might not be needed. 
  - Programs often lack the operational insights, dashboards or metrics to identify opportunities to change policy and operations, improve technology, and use automation. Without this information, programs are unable to prioritize changes.
  
-[Home](/index.html) | [Next](./challenge/two.html)
+[Home](./index.html) | [Next](./two.html)

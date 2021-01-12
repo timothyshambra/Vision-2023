@@ -43,4 +43,4 @@ Reasons why this challenge matters, and obstacles toward achieving this goal inc
 - Vendors feel constrained and disincentivized to bid due to solicitations focused on already-determined solutions. Newer, smaller vendors able to offer more innovative responses to requests that outlined problems and needs in plain language are discouraged from doing business with the state.
 - The state is likely missing opportunities for both learning and savings by not making most solicitations open source by default, or allowing successful vendor partnerships to expand across departments.
 
-[Back](./challenge/one.html) | [Next](./challenge/three.html)
+[Back](./one.html) | [Next](./three.html)

@@ -31,11 +31,12 @@
     padding: 4px;
     text-decoration: none;
 }
-.main-content a {
+.main-section a {
     color: #0a55a0;
     text-decoration: underline;
+    text-decoration-style: dotted;
 }
-.main-content a:hover {
+.main-section a:hover {
     color: #02374e;
 }
 body {

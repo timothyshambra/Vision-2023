@@ -21,16 +21,10 @@
   }
 .main-content a {
     color: #0a55a0;
-    background-image: linear-gradient(to right,#046b99 50%,transparent 50%);
-    background-repeat: repeat-x;
-    background-size: 2px 1px;
-    background-position: center bottom 4%;
-    background-origin: padding-box;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .main-content a:hover {
-    background-image: linear-gradient(to right,#02374e 50%,transparent 50%);
-    text-decoration: none;
+    color: #02374e;
 }
 body {
     color: #333333;
@@ -81,9 +75,6 @@ body {
     font-size: .9rem;
     background-image: none;
     line-height: 1.2;
-}
-.sidebar-nav li a:hover {
-    color: #02374e;
 }
 .nav-item a {
     color: #0a55a0;

@@ -74,7 +74,7 @@ body {
 }
 .btn--alternative {
     display: inline-block;
-    margin-bottom: 1rem;
+    margin: .25rem .25rem 1rem .25rem;
     padding: .5rem;
     color: #0a55a0;
     background-color:#ffffff;
@@ -85,16 +85,11 @@ body {
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 }
 .btn--alternative:hover {
-    display: inline-block;
-    margin-bottom: 1rem;
-    padding: .5rem;
     color: #ffffff;
     background-color:#0a55a0;
     border-color: #0a55a0;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 0.3rem;
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    text-decoration: none;
 }
 .flex-container {
     display: flex;

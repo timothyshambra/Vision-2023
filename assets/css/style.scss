@@ -18,7 +18,19 @@
       background: invert($body-link-color);
       outline: thick solid invert($body-link-color);
     }
-  }
+}
+#skip-to-content:focus {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    height: auto;
+    color: #000000;
+    width: auto;
+    background: #ffffff;
+    outline: thick solid #e19447;
+    padding: 4px;
+    text-decoration: none;
+}
 .main-content a {
     color: #0a55a0;
     text-decoration: underline;
@@ -54,6 +66,17 @@ body {
 }
 .project-name {
     font-size: 1.5rem;
+}
+.btn--alternative {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #0a55a0;
+    background-color: rgba(10,85,160,0.16);
+    border-color: #0a55a0;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 }
 .flex-container {
     display: flex;

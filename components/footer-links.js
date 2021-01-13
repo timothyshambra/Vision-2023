@@ -5,14 +5,14 @@ class FooterLinks extends window.HTMLElement {
       this.innerHTML = `<div class="row"><div class="col-sm">
       <ul class="list-none">
           <li class="m-y"><a href="/process/">Our Process</a></li>
-          <li class="m-y"><a href="/strategy/">Our strategy for getting to vision 2023</a></li>
-          <li class="m-y"><a href="/help/">Vision 2023 was made with the help of</a></li>
+          <li class="m-y"><a href="/strategy.html">Our strategy for getting to vision 2023</a></li>
+          <li class="m-y"><a href="/made-with-the-help-of.html">Vision 2023 was made with the help of</a></li>
       </ul>
   </div>
   <div class="col-sm">
       <ul class="list-none">
-          <li class="m-y"><a href="/thanks/">Our thanks to</a></li>
-          <li class="m-y"><a href="/benefits/">Vision 2023 benefits from the work of</a></li>
+          <li class="m-y"><a href="/our-thanks.html">Our thanks to</a></li>
+          <li class="m-y"><a href="/benefits-from.html">Vision 2023 benefits from the work of</a></li>
       </ul>
   </div></div>`;
     }

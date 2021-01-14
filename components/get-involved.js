@@ -15,7 +15,7 @@ class GetInvolved extends window.HTMLElement {
                       <li>Our team will follow up in the coming weeks to better understand how you can help</li>
                       </ol>
                       <div class="text-center">
-                      <div class="group p-t-md p-b-sm">
+                      <div class="btn-row p-t-sm">
                           <a href="https://forms.gle/zSbFssCE4YCWYiTB8" class="btn btn-highlight btn-lg rounded-50 p-x-md m-r-sm" role="button">Provide input</a>
                           <a href="https://ca-code-works.github.io/Vision-2023/challenge/" class="btn btn-outline-primary btn-lg btn-hover p-x-md rounded-50 m-l-sm"
                               role="button">Explore challenges</a>

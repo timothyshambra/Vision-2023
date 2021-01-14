@@ -7,7 +7,7 @@ class GetInvolved extends window.HTMLElement {
           <div class="row justify-content-center">
               <div class="col-md-9 mx-auto">
                  
-                      <h2 class="text-center h2 p-4 m-b">How to Get Involved</h2>
+                      <h2 class="text-center h2 pb-4 m-b">How to Get Involved</h2>
                       <p class="lead">We are actively looking for people to contribute. Here’s how you can help:</p>
                       <ol style="font-weight:300">
                       <li>Review the current <a href="https://ca-code-works.github.io/Vision-2023/challenge/">challenges</a> we are looking to tackle.</li>

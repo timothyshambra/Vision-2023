@@ -5,10 +5,10 @@ class GetInvolved extends window.HTMLElement {
       this.innerHTML = `<div class="section-understated p-5" id="get-involved-sec">
       <div class="container">
           <div class="row justify-content-center">
-              <div class="col">
+              <div class="col-md-8 mx-auto">
                   <div class="text-center">
-                      <h2 class="h2 p-4 m-b color-gray-dark">How to Get Involved</h2>
-                      <p style="margin: 0 auto; width:90%;max-width:550px;">Click on the buttons below to
+                      <h2 class="h2 p-4 m-b">How to Get Involved</h2>
+                      <p class="lead">Click on the buttons below to
                           share
                           your thoughts about the <a
                               href="https://ca-code-works.github.io/Vision-2023/challenge/">challenges</a> we

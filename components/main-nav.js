@@ -5,6 +5,9 @@ class MainNav extends window.HTMLElement {
       this.innerHTML = `<nav id="navigation" class="main-navigation singlelevel auto-highlight no-icons">
       <ul id="nav_list" class="top-level-nav">
       <li class="nav-item">
+      <a href="/" class="first-level-link">Home</a>
+  </li>
+      <li class="nav-item">
       <a href="/principles/" class="first-level-link">Our Principles</a>
   </li>
       <li class="nav-item">

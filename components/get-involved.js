@@ -16,8 +16,7 @@ class GetInvolved extends window.HTMLElement {
                           first, including what we might be missing and any additional insight that would help
                           inspire our work.</p>
                       <div class="group p-t-md p-b-sm">
-                          <a href="#" class="btn btn-highlight rounded-50 p-x-md m-r-sm" role="button">Take
-                              part</a>
+                          <a href="#" class="btn btn-highlight rounded-50 p-x-md m-r-sm" role="button">Get involved</a>
                           <a href="#" class="btn btn-outline-primary btn-hover p-x-md rounded-50 m-l-sm"
                               role="button">Give
                               feedback</a>

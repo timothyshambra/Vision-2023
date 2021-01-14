@@ -22,6 +22,9 @@
 body {
     color: #333333;
 }
+.flex-container {
+    display: flex;
+}
 #skip-to-content:focus {
     position: fixed;
     top: 10px;

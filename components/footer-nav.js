@@ -7,13 +7,13 @@ class FooterNav extends window.HTMLElement {
           <a href="#skip-to-content">Back to Top</a>
       </li>
       <li>
-          <a href="/use/">Conditions of Use</a>
+          <a href="/use.html">Conditions of Use</a>
       </li>
       <li>
-          <a href="/privacy-policy/">Privacy Policy</a>
+          <a href="/privacy-policy.html">Privacy Policy</a>
       </li>
       <li>
-          <a href="/accessibility/">Accessibility</a>
+          <a href="/accessibility.html">Accessibility</a>
       </li>
   </ul>`;
     }

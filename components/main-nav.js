@@ -16,7 +16,6 @@ class MainNav extends window.HTMLElement {
       <li class="nav-item">
       <a href="https://ca-code-works.github.io/Vision-2023/challenge/" class="first-level-link">Explore Challenges</a>
   </li>
-
   </ul></nav>`;
     }
   

@@ -76,6 +76,17 @@ body {
 .main-section a:hover {
     color: #02374e;
 }
+.btn {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    background-color: rgba(255,255,255,0.08);
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
 .btn--alternative {
     display: inline-block;
     margin: .25rem .25rem 1rem .25rem;

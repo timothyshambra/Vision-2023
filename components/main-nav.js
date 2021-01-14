@@ -13,9 +13,6 @@ class MainNav extends window.HTMLElement {
       <li class="nav-item">
           <a href="/principles/" class="first-level-link">Guiding Principles</a>
       </li>
-      <li class="nav-item">
-          <a href="/get-involved/" class="first-level-link">Get Involved</a>
-      </li>
   </ul></nav>`;
     }
   

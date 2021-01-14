@@ -2,7 +2,7 @@
 class GetInvolved extends window.HTMLElement {
     connectedCallback () {
       const { classPrefix, classList } = this.dataset;
-      this.innerHTML = `<div class="section-understated p-5" id="get-involved-sec">
+      this.innerHTML = `<div class="section-understated p-sm-3 p-md-5" id="get-involved-sec">
       <div class="container">
           <div class="row justify-content-center">
               <div class="col-md-9 mx-auto">

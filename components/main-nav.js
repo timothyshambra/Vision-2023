@@ -11,11 +11,12 @@ class MainNav extends window.HTMLElement {
           <a href="/goals/" class="first-level-link">Our Goals</a>
       </li>
       <li class="nav-item">
-          <a href="/next/" class="first-level-link">What's Next</a>
-      </li>
-      <li class="nav-item">
       <a href="https://ca-code-works.github.io/Vision-2023/challenge/" class="first-level-link">Explore Challenges</a>
   </li>
+      <li class="nav-item">
+          <a href="/next/" class="first-level-link">What's Next</a>
+      </li>
+      
   </ul></nav>`;
     }
   

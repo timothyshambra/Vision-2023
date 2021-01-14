@@ -63,6 +63,12 @@ body {
 .flex-container {
     display: flex;
 }
+.col-left {
+    width: 70%;
+}
+.col-right {
+    width: 30%;
+}
 .main-section {
     width: 70%;
     padding: 16px 0;

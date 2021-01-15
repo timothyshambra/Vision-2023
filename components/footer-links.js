@@ -6,7 +6,7 @@ class FooterLinks extends window.HTMLElement {
       <ul class="list-none">
           <li class="m-y"><a href="/process/">Our Process</a></li>
           <li class="m-y"><a href="/strategy.html">Our strategy for getting to vision 2023</a></li>
-          <li class="m-y"><a href="/made-with-the-help-of.html">Vision 2023 was made with the help of</a></li>
+          <li class="m-y"><a href="/acknowledgements.html">Acknowledgements</a></li>
       </ul>
   </div>
   <div class="col-sm">

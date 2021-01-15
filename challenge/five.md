@@ -1,4 +1,4 @@
-# 5. Build confident, empowered multi-disciplinary teams
+# Challenge - 5. Build confident, empowered multi-disciplinary teams
 
 >“Technology is a product of the culture that builds it. ” - Kellan Elliott-McCrea, former Chief Technology Officer, Etsy 
 

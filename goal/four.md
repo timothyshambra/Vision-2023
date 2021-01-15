@@ -1,4 +1,4 @@
-# 4. Build digital government more quickly and more effectively  
+# Goal - 4. Build digital government more quickly and more effectively  
 The COVID-19 pandemic forced our government to adapt quickly and rethink how we serve 40 million Californians. At the same time, the 2020-2021 budget has less funding for government services, and requires government to work more efficiently. 
 
 In our research and engagement, we found departments hungry to use technology to dramatically improve operations, services and outcomes. And yet, technology is not doing as much as it should. Leaders and implementers face significant challenges effectively making these improvements quickly and effectively. 

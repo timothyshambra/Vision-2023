@@ -1,4 +1,4 @@
-# 2. Continuous, timely improvement 
+# Principle - 2. Continuous, timely improvement 
 
 COVID-19 showed us how public services are ready to adapt quickly and flexibly in changing circumstances. But those improvements must be timely, too. 
 

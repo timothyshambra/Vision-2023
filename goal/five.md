@@ -1,4 +1,4 @@
-# Goal - 5. Build confident, empowered multi-disciplinary teams
+# Goal 5: Build confident, empowered multi-disciplinary teams
 
 >“Leaders need a deep appreciation of technology’s role in creating effective policies, improving government services and performance.”
 The Partnership for Public Service

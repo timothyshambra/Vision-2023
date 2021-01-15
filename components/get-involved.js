@@ -11,7 +11,7 @@ class GetInvolved extends window.HTMLElement {
                       <p class="lead">We are actively looking for people to contribute. Here’s how you can help:</p>
                       <ol style="font-weight:300">
                       <li>Review the current <a href="https://ca-code-works.github.io/Vision-2023/challenge/">challenges</a> we are looking to tackle.</li>
-                      <li><a href=""https://forms.gle/zSbFssCE4YCWYiTB8">Provide your input</a> on challenges and your interest in being part of a challenge team.</li>
+                      <li><a href="https://forms.gle/zSbFssCE4YCWYiTB8">Provide your input</a> on challenges and your interest in being part of a challenge team.</li>
                       <li>Our team will follow up in the coming weeks to better understand how you can help</li>
                       </ol>
                       <div class="text-center">

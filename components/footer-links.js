@@ -6,13 +6,13 @@ class FooterLinks extends window.HTMLElement {
       <ul class="list-none">
         <li class="m-y"><a href="/vision/">Our Vision</a></li>
         <li class="m-y"><a href="/process/">Our Process</a></li>
-        <li class="m-y"><a href="/acknowledgements.html">Acknowledgements</a></li>
+        <li class="m-y"><a href="/references.html">References</a></li>
       </ul>
   </div>
   <div class="col-sm">
       <ul class="list-none">
-        <li class="m-y"><a href="/our-thanks.html">Our thanks to</a></li>
-        <li class="m-y"><a href="/references.html">References</a></li>
+        <li class="m-y"><a href="/acknowledgements.html">Acknowledgements</a></li>
+        <li class="m-y"><a href="/our-thanks.html">Thanks</a></li>
       </ul>
   </div>`;
     }

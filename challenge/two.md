@@ -1,44 +1,54 @@
 # 2. Ensure public services are equitable and inclusive
-**Challenge 2.1: How can we ensure all Californians have access to affordable, reliable high performance broadband?**
 
-Reasons why this challenge matters, and obstacles toward achieving this goal include: 
+>“It feels like we assume the public are upper-middle-class white people with college degrees.”
+**User research interview with Christian Griffith, Chief Consultant, Assembly Budget Committee**
 
-- 23 percent of California housing units—home to 8.4 million residents—do not have broadband subscriptions.
-- There are five core roadblocks preventing Californians from accessing or adopting broadband: availability (speed and reliability), affordability, access to devices, digital skills, and data. 
-- Delivering broadband to all Californians will require at least $6.8 billion in private, federal, and state investments as bandwidth demand continues to grow - far outstripping expected funding from the Federal Communication Commission’s Rural Digital Opportunity Fund and existing State programs. 
-- We recognize that achieving Broadband for All will require partnerships with and support from the broadband industry and federal, municipal, and tribal governments.
-- Where services have been converted to digital, lack of access means those services have become inaccessible: people can’t get fishing licenses if fishing licenses are digital and there is no internet access. 
+COVID-19 showed how public services can mean the difference between life and death. Given these stakes, the state has an obligation to make sure all Californians can equitably access public services. Technology plays a critical role in meeting that obligation.
 
-**Challenge 2.2: How can we make digital services and information accessible to everyone?**
+Making public services fair and inclusive requires focus and work. 
 
-Reasons why this challenge matters, and obstacles toward achieving this goal include: 
+In California, nearly 16 million Californians speak a language other than (or besides) English. And non-native English speakers include many of the most vulnerable Californians. But many public services can appear as if these Californians were an afterthought.,  
 
-- It is imperative that all Californians can access government services
-- Digital is increasingly the primary channel and expected channel for government services
-- Strict compliance with AB434 and industry accessibility standards does not automatically result in increased accessibility or improved outcomes to real users.  
-- Most of us will at some point have a disability or become elderly
-- Many services are inaccessible to those who speak English as a second language, or do not speak English at all. 
+Different abilities may require people to engage with technology differently. They may need screen readers or web pages with more distinct colors. This is not a niche issue. Nearly a quarter of adult Californians have some kind of disability. Throughout our lives, most of us will experience disability, whether permanently or temporarily. Assembly Bill 434 (AB-434) recognized this by requiring government websites to comply with industry and federal accessibility standards. But being inclusive and accessible to all is more far reaching than complying with rules. It requires understanding the needs of those we seek to include, and testing with them to help ensure we meet the mark.
+
+Making public services more accessible and inclusive improves the experience for everyone. We do not intend to exclude. But our defaults make exclusion more common than we would like to admit. For example, many websites are written at a post-graduate reading level. This is typical of government writing. Simplifying the information we share with the public to a 6th grade reading level makes it easier for all Californians to understand and engage with their government. Inclusion is hard work. It requires dedication and focus.
+
+Diverse teams help. What we put out to the world reflects our biases and experiences. We need teams that look like California as we build technology to serve Californians. Building these teams requires hiring talent, partnering and purchasing services from people who reflect the totality of California. COVID-19 illustrated how a simple change such as dropping the requirement to be on-site in Sacramento — opened the state to vendors and talent who are normally excluded. We can and must make our broader state technology community better reflect our state. 
+
+## Challenges to focus our work ahead together
+
+**Challenge 2.1: How can we make digital services and information accessible to everyone?**
+
+Why this matters: 
+
+- All Californians must be able to access government services.
+- Digital is increasingly the primary and expected channel for government services.
+- Compliance with AB-434 and industry accessibility standards do not automatically result in increased accessibility for real users.
+- Improving service accessibility will improve the experience for all Californians. 
+
+**Challenge 2.2: How can we ensure all Californians have access to affordable, reliable high performance broadband?**
+
+Why this matters: 
+
+- California seeks to deliver more services digitally, but without greater broadband access this strategy won’t reach many vulnerable people who most need state services.
+- 23 percent of California housing units — home to 8.4 million residents — do not have broadband subscriptions.
+- These Californians face five significant hurdles in accessing or adopting broadband: availability (speed and reliability), affordability, access to devices, digital skills and the data to focus our solutions.
+- Delivering broadband to all Californians will require at least $6.8 billion in private, federal, and state investments as bandwidth demand continues to grow — outstripping expected funding from the Federal Communication Commission’s Rural Digital Opportunity Fund and existing state programs.
+
+Achieving the state’s goal of Broadband For All will require partnerships with and support from the broadband industry and federal, municipal and tribal governments.
 
 **Challenge 2.3: How might we better reflect the diversity of California in the teams building technology for California?**
 
-Reasons why this challenge matters, and obstacles toward achieving this goal include: 
+Why this matters: 
 
-- Having more diverse government workforces - in terms of sex, race, ethnicity, language, ability, and experience - leads to better policy outcomes for represented communities. Diverse workforces with diverse life experience are better able to understand people’s needs. 
-- Diverse workplaces with a focus on eliminating barriers to inclusion help attract and retain the best talent from a wider pool.  
-- Diversity leads to more innovation and better decision-making by leveraging more, different perspectives. 
-- Our State Technology workforce does not yet reflect the state we serve, particularly amongst women (35% of workforce vs. 50% of population) and Hispanic or Latino colleagues (12% of workforce vs. 39% of population). 
+- More diverse government workforces — in terms of sex, race, ethnicity, language, ability, and experience — leads to better policy outcomes for represented communities. Diverse workforces with diverse life experience and perspectives are better able to understand people’s needs.
+- Diverse workplaces known to value inclusion help attract and retain the best talent from a wider pool.   
+- Our state technology workforce does not yet reflect the state we serve, particularly among women (35 percent of workforce vs. 50 percent of population) and Hispanic or Latino colleagues (12 percent of workforce vs. 39 percent of population).
 
-**Challenge 2.4 How can we create an equitable, inclusive and diverse playing field for technology purchases attracting the best technology vendors?**
+**Challenge 2.4 How can we create an equitable, inclusive and diverse playing field for technology vendors?**
 
-Reasons why this challenge matters, and obstacles toward achieving this goal include: 
+Why this matters: 
 
-- In general, A technology policy and procurement environment incentivizing large technology procurements (e.g. tens or hundreds of millions of dollars), combined with factors such as unexamined mandatory requirements, results in a small, repetitive pool of eligible vendors, restricting competition and the ability of the state to achieve the best results. 
-- Default approaches to tech procurements can in effect encourage the choice of large, established vendors even when not warranted.
-- By opening up procurements can get better solutions and more diverse vendor pool.
-- Vendors face barriers in deciding whether to compete or bid to work with the state: both prospective and established vendors had trouble finding out about opportunities to bid. 
-- Newer, smaller and typically more diverse vendors face barriers in insurance requirements and setup requirements such as on-premise servers, or requiring vendor staff to be full-time on-site in a CA government facility in the Sacramento area.
-- Smaller, less-capitalized vendors are less likely to submit bids due to longer payment terms (Net 60 or Net 90 compared to Net 30, which is common in the private sector), resulting in less competition.
-- Many procurements require an all-paper process, including mailing or delivering paper responses, restricting access.  
-- Even for established vendors, the repetitive work involved in completing solicitation paperwork on successive procurements is a barrier. This is even more burdensome for newer, smaller and typically more diverse vendors.
-- Vendors feel constrained and disincentivized to bid due to solicitations focused on already-determined solutions. Newer, smaller vendors able to offer more innovative responses to requests that outlined problems and needs in plain language are discouraged from doing business with the state.
-- The state is likely missing opportunities for both learning and savings by not making most solicitations open source by default, or allowing successful vendor partnerships to expand across departments.
+- In general, our technology policy and procurement environment incentivizes large technology procurements (e.g., tens or hundreds of millions of dollar “projects”) instead of smaller procurements (e.g., sub-million dollar “teams”), which results in a small pool of eligible vendors that may not deliver the best results. 
+- Procurements focused on approaches or solutions that have already been decided limit innovation, speed and quality of problem-solving, and may exclude newer, smaller vendors with new or innovative approaches.
+- Engagement and surveys with technology companies found many barriers to entry, especially for companies new to doing business with the state.

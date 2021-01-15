@@ -1,33 +1,43 @@
-# 1. Deliver easy to use, fast, dependable and secure public services
+# 1. Deliver easy-to-use, fast, dependable and secure public services
+
+
+>“Claimants shouldn't have to understand the structure of a department to receive benefits they’ve already paid for.”
+  User research interview with Carol Williams, Chief Deputy Director of Operations, Employment Development Department
+
+
+COVID-19 and wildfires reminded us that government services can mean the difference between life and death. When government fell short, state staff and technology company partners responded with creativity and dedication, improving services quickly and deliberately. 
+
+**Public services should be easy to use**. We’ve seen and heard that the quality of our public services is inconsistent. Before COVID-19, Californians could only apply for some services in person. They could use some services online, but only at a computer, not on a phone. People entering the wrong information repeatedly is a sign that we must make services easier to understand and use, and many people aren’t confident enough to use online services and find them confusing or alienating. 
+
+**Public services should be fast**. Californians expect and demand fast services from their government. Fast services require understanding what fast means for users and identifying bottlenecks in those services. It also requires empowering our state staff to be part of the process. We must look for bottlenecks in our own processes and policies, and rewrite them to be simpler, clearer, more straightforward and to make use of automation. 
+
+**Public services must be dependable**. Californians must be able to trust their government. We earn that trust by making sure government services are dependable. This means information like public health data and guidance must be accurate, up-to-date and useful. 
+
+Public services must be secure. Californians share their personal information, data and resources with their government. They must be confident that government will keep their information private and secure, and that government will steward their resources, preventing fraud and abuse.
+
+## Challenges to focus our work ahead together
+
  **Challenge 1.1: How might we make it easier to understand and navigate public services and information?**
  
- Reasons why this challenge matters, and obstacles toward achieving this goal include:
+ Why this matters: 
 
- - Public services and the information people need is delivered over three hundred websites managed by over 150 government departments, contributing to inconsistency. 
- - The user experience of California state websites is disconnected and inconsistent, with poor speed and performance common, especially for people using mobile devices.
- - Services don’t always meet the public where they are in terms of mobile devices and interfaces (usually because they were designed for desktop web browsers).
- - Many services require high reading levels in English, and significant administrative understanding and technology savvy to interact with.
+ - People must search for public information and services across over three hundred websites managed by more than 150 departments. 
+ - Users face inconsistent and disconnected experiences on California state websites.
+ - Many services and websites are written to postgraduate English reading levels, making them hard to understand.
 
- **Challenge 1.2: How might we make strike teams a thing of the past? What must we do to ensure critical public services and technology infrastructure are ready for surges, and are resilient and dependable?** 
+ **Challenge 1.2: What must we do to ensure critical public services and technology infrastructure are ready for surges, and are resilient and dependable? How might we make strike teams a thing of the past?** 
 
-Reasons why this challenge matters, and obstacles toward achieving this goal include:
+Why this matters: 
 
- - Many critical public services rely on legacy technology systems, many of which have seen chronic underinvestment, making them inflexible and unable to meet surge demand.
- - Outages in the last several years have led to emergency incidents and strike teams to stabilize and address dramatic service failures that have occurred at the confluence of operations, policy, and technology. Strike teams aren’t sustainable, and are reactive. 
- - Today, there are critical public services whose digital services are only available during certain office hours, instead of being available 24/7. 
- - We must get ahead of the next crisis, and make regular progress to stabilize and improve resilience of critical services so we don’t need strike teams again.
- - COVID has shown that surges in demand will happen. Critical public services must be ready and regularly tested to meet increases in peak demand.   
- - Programs often lack the operational insights, dashboards or metrics to identify where policy, operations and use of technology must change to meet surges. 
+ - Surges in demand will always happen. Sometimes they are predictable, when following changes in the law, like Motor Voter and Real ID. COVID-19 was a lesson in unexpected surge in demand. Critical public services must be ready and regularly tested to meet increases in peak demand, and it is unacceptable for critical public services to be available only during certain office hours.
+ - Dramatic service failures have led to emergency incidents and strike teams to stabilize services. These strike teams are reactive and unsustainable.
+ - These failures also often happen at the seams where technology, policy, and operations meet, and weakness or obsolescence in each contribute to overall failure. 
 
- **Challenge 1.3: How might we provide faster, more accurate, and more consistent public services?**
+
+ **Challenge 1.3: How might we provide faster, more consistent, and more accurate public services? **
  
- Reasons why this challenge matters, and obstacles toward achieving this goal include: 
+ Why this matters:  
 
- - Digital services are inconsistently implemented, making it hard to share and reuse data which is frustrating to users, inefficient for government, and can lead to inaccuracies.
- - During COVID, some services were still transitioning to online portals, while others could only convert paper, form-based applications to emails.
- - People aren’t receiving services in a timely manner. This is often because a combination of policy and technology is relying on paper documentation, or assuming that paper documentation must be provided. 
- - Few people want to spend more time with their government. The faster a service is provided, the happier people are with their government. 
- - Processing errors undermine confidence, generate re-work, and cause frustration. 
- - Inconsistency can lead to questions of bias, capriciousness, and fairness. 
- - Manual steps tend to bottleneck processes, slowing down services, introducing variance, and frustrating staff who want to focus on more meaningful work. Many of these manual steps might not be needed. 
- - Programs often lack the operational insights, dashboards or metrics to identify opportunities to change policy and operations, improve technology, and use automation. Without this information, programs are unable to prioritize changes.
+ - Slow, inconsistent, or inaccurate services can undermine trust in government and raise questions of fairness, bias and competence.
+ - COVID-19 highlighted services that rely on paper due to a combination of policy and technology. Paper processes often mean higher costs and slower service.
+ - Programs often lack the operational insights, dashboards or metrics to identify opportunities to change policy and operations, improve technology, and use automation. Without this information, programs are unable to effectively prioritize changes.

@@ -65,9 +65,11 @@ body {
 }
 .left-col {
     width: 70%;
+    order: 1;
 }
 .right-right {
     width: 30%;
+    order: 2;
 }
 .main-section {
     width: 70%;
@@ -169,5 +171,11 @@ body {
     }
     .main-section {
         width: 100%;
-    }  
+    }
+    .left-col {
+        order: 2;
+    }
+    .right-right {
+        order: 1;
+    }
 }

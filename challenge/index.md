@@ -21,7 +21,7 @@ We hope to inspire leaders and teams to help us set specific objectives and key 
 ### 1. [Deliver easy-to-use, fast, dependable and secure public services](https://ca-code-works.github.io/Vision-2023/challenge/one.html)
 
    - Challenge 1.1: How might we make it easier to understand and navigate public services and information?
-   - CChallenge 1.2: What must we do to ensure critical public services and technology infrastructure are ready for surges, and are resilient and dependable? How might we make strike teams a thing of the past?
+   - Challenge 1.2: What must we do to ensure critical public services and technology infrastructure are ready for surges, and are resilient and dependable? How might we make strike teams a thing of the past?
    - Challenge 1.3: How might we provide faster, more consistent, and more accurate public services? 
    
 ### 2. [Ensure public services are equitable and inclusive](https://ca-code-works.github.io/Vision-2023/challenge/two.html)

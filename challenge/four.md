@@ -26,7 +26,7 @@ Why this matters:
  - Unclear and inconsistently applied approval processes, standards and requirements highlight a need for clarification, better coaching and consistency to set investments up to succeed regardless of who’s building or approving them.
 
 
-**Challenge 4.2: How might we develop the information needed to prioritize statewide technology investments to improve services, realize savings and reduce risk? ** 
+**Challenge 4.2: How might we develop the information needed to prioritize statewide technology investments to improve services, realize savings and reduce risk?** 
 
 Why this matters: 
 

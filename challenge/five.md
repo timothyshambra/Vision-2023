@@ -1,10 +1,8 @@
 # 5. Build confident, empowered multi-disciplinary teams
 
->“Technology is a product of the culture that builds it. ”
-Kellan Elliott-McCrea, former Chief Technology Officer, Etsy 
+>“Technology is a product of the culture that builds it. ” - Kellan Elliott-McCrea, former Chief Technology Officer, Etsy 
 
->“It’s hard for me as a director when I don’t have IT project experience.”
-User research interview with Eraina Ortega, Director, California Department of Human Resources
+>“It’s hard for me as a director when I don’t have IT project experience.” - User research interview with Eraina Ortega, Director, California Department of Human Resources
 
 Our public servants are smart and dedicated. They want to spend their time on hard problems, and for technology to remove routine items from their plate. 
 

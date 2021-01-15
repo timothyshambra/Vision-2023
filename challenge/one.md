@@ -1,8 +1,7 @@
 # 1. Deliver easy-to-use, fast, dependable and secure public services
 
 
->“Claimants shouldn't have to understand the structure of a department to receive benefits they’ve already paid for.”
-  User research interview with Carol Williams, Chief Deputy Director of Operations, Employment Development Department
+>“Claimants shouldn't have to understand the structure of a department to receive benefits they’ve already paid for.” - User research interview with Carol Williams, Chief Deputy Director of Operations, Employment Development Department
 
 
 COVID-19 and wildfires reminded us that government services can mean the difference between life and death. When government fell short, state staff and technology company partners responded with creativity and dedication, improving services quickly and deliberately. 

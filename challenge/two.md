@@ -1,7 +1,6 @@
 # 2. Ensure public services are equitable and inclusive
 
->“It feels like we assume the public are upper-middle-class white people with college degrees.”
-**User research interview with Christian Griffith, Chief Consultant, Assembly Budget Committee**
+>“It feels like we assume the public are upper-middle-class white people with college degrees.” - User research interview with Christian Griffith, Chief Consultant, Assembly Budget Committee
 
 COVID-19 showed how public services can mean the difference between life and death. Given these stakes, the state has an obligation to make sure all Californians can equitably access public services. Technology plays a critical role in meeting that obligation.
 

@@ -34,7 +34,7 @@ Why this matters:
  - These failures also often happen at the seams where technology, policy, and operations meet, and weakness or obsolescence in each contribute to overall failure. 
 
 
- **Challenge 1.3: How might we provide faster, more consistent, and more accurate public services? **
+ **Challenge 1.3: How might we provide faster, more consistent, and more accurate public services?**
  
  Why this matters:  
 

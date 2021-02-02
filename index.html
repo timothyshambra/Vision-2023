@@ -63,9 +63,37 @@
 
     <!-- Insert everything below in the <body>. -->
     <!--ANALYTICS-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-21974567-43"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
+    //statewide GA property
+    gtag('config', 'UA-3419582-2');
+    //please update state department UA code in line below before deployment	
+    gtag('config', 'UA-21974567-43');
+    //un-comment line below and update UA code to add a third GA property
+    //gtag('config', 'UA-xxxxxx-xx');
 
+    var getOutboundLink = function (url) {
+        gtag('event', 'click', {
+        'event_category': 'navigation',
+        'event_label': 'outbound link: ' + url,
+        'transport_type': 'beacon',
+        'event_callback': function () { document.location = url; }
+        });
+    }
 
+    var trackDownload = function (filename) {
+        gtag('event', 'click', {
+        'event_category': 'download',
+        'event_label': 'file: ' + filename,
+        'transport_type': 'beacon',
+        'event_callback': function () { document.location = url; }
+        });
+    }
+    </script>
     <style>
         .h1 {
             margin-top: 1rem;
@@ -216,9 +244,6 @@
                 <!-- Add more mobile controls here. These will be on the right side of the mobile page header section -->
             </span>
             <div class="mobile-control-group main-nav-icons">
-                <!-- <button class="mobile-control toggle-search">
-                    <span class="ca-gov-icon-search hidden-print" aria-hidden="true"></span><span class="sr-only">Search</span>
-                </button> -->
                 <button id="nav-icon3" class="mobile-control toggle-menu" aria-expanded="false"
                     aria-controls="navigation" data-toggle="collapse" data-target="#navigation" role="tab"
                     aria-selected="false">

@@ -63,6 +63,37 @@
 
     <!-- Insert everything below in the <body>. -->
     <!--ANALYTICS-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-21974567-43"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    //statewide GA property
+    gtag('config', 'UA-3419582-2');
+    //please update state department UA code in line below before deployment	
+    gtag('config', 'UA-21974567-43');
+    //un-comment line below and update UA code to add a third GA property
+    //gtag('config', 'UA-xxxxxx-xx');
+
+    var getOutboundLink = function (url) {
+        gtag('event', 'click', {
+        'event_category': 'navigation',
+        'event_label': 'outbound link: ' + url,
+        'transport_type': 'beacon',
+        'event_callback': function () { document.location = url; }
+        });
+    }
+
+    var trackDownload = function (filename) {
+        gtag('event', 'click', {
+        'event_category': 'download',
+        'event_label': 'file: ' + filename,
+        'transport_type': 'beacon',
+        'event_callback': function () { document.location = url; }
+        });
+    }
+    </script>
     <style>
         .section-primary {
             background: rgb(30, 19, 105);
@@ -220,7 +251,7 @@
 
                     <h2 id="people-first">1. Put people first</h2>
                     <p>In 2020, doing our job required a clear focus on putting people first.</p>
-                    <p>In 2020, putting people first meant a multi-agency team building covid19.ca.gov in order to meet Californians’ need for understandable, accurate and up-to-date information.
+                    <p>In 2020, putting people first meant a multi-agency team building <a href="https://covid19.ca.gov/">covid19.ca.gov</a> in order to meet Californians’ need for understandable, accurate and up-to-date information.
                     </p>
                     <p>We achieved this by doing the hard work to understand what Californians and the public servants working for them needed, applying disciplines like user research, analytics, product management, continuous delivery and more. 
                     </p>

@@ -10,18 +10,9 @@
     <meta name="keywords" content="Vision 2023, innovative, Technology, Solutions, California">
     <title>Vision 2023 | California Department of Technology</title>
 
-
-
-
-
     <!-- State Template CDN CSS -->
-    <link rel="stylesheet" href="/css/cagov.core.css">
-    <link rel="stylesheet" href="/css/colorscheme-oceanside.css"> <!-- Modified -->
-
-    <!-- Required JS -->
-
-    <script src="/js/libs/jquery.js" type="text/javascript"></script>
-    <script src="/js/libs/jquery-migrate.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./css/cagov.core.css">
+    <link rel="stylesheet" href="./css/colorscheme-oceanside.css"> <!-- Modified -->
 
     <!-- apple touch icons -->
     <link rel="apple-touch-icon-precomposed" sizes="100x100"
@@ -48,7 +39,7 @@
         href="https://california.azureedge.net/cdt/statetemplate/5.5.18/images/apple-touch-icon.png">
 
     <!-- For everything else -->
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <!-- Activate ClearType for Mobile IE -->
     <!--[if IE]>
@@ -65,34 +56,34 @@
     <!--ANALYTICS-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-21974567-43"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    //statewide GA property
-    gtag('config', 'UA-3419582-2');
-    //please update state department UA code in line below before deployment	
-    gtag('config', 'UA-21974567-43');
-    //un-comment line below and update UA code to add a third GA property
-    //gtag('config', 'UA-xxxxxx-xx');
+        //statewide GA property
+        gtag('config', 'UA-3419582-2');
+        //please update state department UA code in line below before deployment	
+        gtag('config', 'UA-21974567-43');
+        //un-comment line below and update UA code to add a third GA property
+        //gtag('config', 'UA-xxxxxx-xx');
 
-    var getOutboundLink = function (url) {
-        gtag('event', 'click', {
-        'event_category': 'navigation',
-        'event_label': 'outbound link: ' + url,
-        'transport_type': 'beacon',
-        'event_callback': function () { document.location = url; }
-        });
-    }
+        var getOutboundLink = function (url) {
+            gtag('event', 'click', {
+                'event_category': 'navigation',
+                'event_label': 'outbound link: ' + url,
+                'transport_type': 'beacon',
+                'event_callback': function () { document.location = url; }
+            });
+        }
 
-    var trackDownload = function (filename) {
-        gtag('event', 'click', {
-        'event_category': 'download',
-        'event_label': 'file: ' + filename,
-        'transport_type': 'beacon',
-        'event_callback': function () { document.location = url; }
-        });
-    }
+        var trackDownload = function (filename) {
+            gtag('event', 'click', {
+                'event_category': 'download',
+                'event_label': 'file: ' + filename,
+                'transport_type': 'beacon',
+                'event_callback': function () { document.location = url; }
+            });
+        }
     </script>
     <style>
         .h1 {
@@ -104,13 +95,6 @@
         .h2 {
             color: #3b1369;
         }
-
-        /*.lead {
-            font-size: 26px;
-            font-weight: 300;
-            line-height: 1.5;
-            font-family: 'Montserrat';
-        }*/
 
         .bg-primary-light-hover:hover,
         .bg-primary-light-hover:focus {
@@ -170,18 +154,17 @@
                 <div class="group flex-row">
                     <div class="social-media-links">
                         <div class="header-cagov-logo"><a href="https://ca.gov"><span class="sr-only">CA.gov</span><img
-                                    src="/images/Ca-Gov-Logo-Gold.svg" class="pos-rel" alt="" aria-hidden="true" /></a>
+                                    src="./images/Ca-Gov-Logo-Gold.svg" class="pos-rel" alt="" aria-hidden="true" /></a>
+                                    <a href="https://cdt.ca.gov/" style="font-size: .8em;margin-left: 1em;"><span class="ca-gov-icon-home"><span class="sr-only">Back</span></span> Department of Technology Services</a>
                         </div>
-                        <!--a href="/" class="ca-gov-icon-home"><span class="sr-only">Home</span></a>
-                        <a href="/" class="ca-gov-icon-facebook"><span class="sr-only">Facebook</span></a>
-                        <a href="/" class="ca-gov-icon-twitter"><span class="sr-only">Twitter</span></a>
-                        <a href="/" class="ca-gov-icon-email"><span class="sr-only">Email</span></a> -->
+                        <!--a href="./" class="ca-gov-icon-home"><span class="sr-only">Home</span></a>
+                        <a href="./" class="ca-gov-icon-facebook"><span class="sr-only">Facebook</span></a>
+                        <a href="./" class="ca-gov-icon-twitter"><span class="sr-only">Twitter</span></a>
+                        <a href="./" class="ca-gov-icon-email"><span class="sr-only">Email</span></a> -->
                     </div>
                     <div class="settings-links">
-
                         <!--componetns/utility-links.js component-->
                         <utility-links></utility-links>
-
                     </div>
                 </div>
             </div>
@@ -227,7 +210,7 @@
         <!-- header branding -->
         <div class="branding">
             <div class="header-organization-banner">
-                <a href="/">
+                <a href="./">
                     <div class="logo-assets">
 
                         <div class="logo-text">
@@ -277,225 +260,227 @@
                     <div class="col-md-8">
                         <h1 class="h1">Vision 2023</h1>
 
-                        <p class="lead m-t-md m-b-md">Vision 2023 is California’s Statewide Strategic Plan to use technology to meet our society’s goals, and make progress on the big, complex problems affecting us all.</p>
+                        <p class="lead m-t-md m-b-md">Vision 2023 is California’s Statewide Strategic Plan to use
+                            technology to meet our society’s goals, and make progress on the big, complex problems
+                            affecting us all.</p>
 
-                        <p>Our plan lays out how technology can power not just more efficient and effective government, but a compassionate and fair government. Our vision is of a government that is accessible and reliable, and works without surprises or hidden traps.</p>
-            
-                            <ul>
-                                <li><a href="/vision/">Take a trip to 2023</a> with MW and Kimberly.</li>
-                                <li>Read the <a href="/letter/">letter from the State CIO</a>.</li>
-                            </ul>
+                        <p>Our plan lays out how technology can power not just more efficient and effective government,
+                            but a compassionate and fair government. Our vision is of a government that is accessible
+                            and reliable, and works without surprises or hidden traps.</p>
+
+                        <ul>
+                            <li><a href="./vision/">Take a trip to 2023</a> with MW and Kimberly.</li>
+                            <li>Read the <a href="./letter/">letter from the State CIO</a>.</li>
+                        </ul>
 
                         <div class="btn-row p-t-sm">
-                            <a href="https://forms.gle/zSbFssCE4YCWYiTB8" class="btn btn-highlight btn-lg rounded-50" role="button">Share feedback</a>
-                            <a href="https://ca-code-works.github.io/Vision-2023/challenge/" class="btn btn-outline-light btn-lg rounded-50" >Explore challenges </a>
+                            <a href="https://forms.gle/zSbFssCE4YCWYiTB8" class="btn btn-highlight btn-lg rounded-50"
+                                role="button">Share feedback</a>
+                            <a href="https://ca-code-works.github.io/Vision-2023/challenge/"
+                                class="btn btn-outline-light btn-lg rounded-50">Explore challenges </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-<!--OUR GUIDING PRINCIPLES SECTION-->
-<div class="section pt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="text-center">
-                    <h2 class="h2 p-b-0 m-b color-gray-dark">Our Principles</h2>
+        <!--OUR GUIDING PRINCIPLES SECTION-->
+        <div class="section pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center">
+                            <h2 class="h2 p-b-0 m-b color-gray-dark">Our Principles</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 m-b-lg transform-scale-1_05--hover transition-0_3">
+
+                        <a href="./principles/index.html#people-first"
+                            class="no-underline d-block bg-primary-light-hover p-y-md p-x-sm" title="Put people first">
+                            <div class="text-center">
+                                <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
+                                        src="./images/value-one.svg" alt="Put people first icon"
+                                        style="width:10.71429rem">
+                                </div>
+                                <p class="font-size-20 color-p2">Put people first</p>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col-md-4 m-b-lg transform-scale-1_05--hover transition-0_3">
+                        <a href="./principles/index.html#improvement"
+                            class="no-underline d-block bg-primary-light-hover p-y-md p-x-sm"
+                            title="Make Regular, Frequent improvement">
+                            <div class="text-center">
+                                <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
+                                        src="./images/value-two.svg" alt="Continuous, timely improvement Icon"
+                                        style="width:10.71429rem">
+                                </div>
+                                <p class="font-size-20 color-p2">Continuous, timely improvement</p>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col-md-4 m-b-lg transform-scale-1_05--hover transition-0_3">
+
+                        <a href="./principles/index.html#together"
+                            class="no-underline d-block bg-primary-light-hover p-y-md p-x-sm"
+                            title="Use and develop technology together">
+                            <div class="text-center">
+                                <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
+                                        src="./images/value-three.svg" alt="Working together beats working alone icon"
+                                        style="width:10.71429rem">
+                                </div>
+                                <p class="font-size-20 color-p2">Working together beats working alone</p>
+                            </div>
+                        </a>
+
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 m-b-lg transform-scale-1_05--hover transition-0_3">
-
-                <a href="/principles/index.html#people-first"
-                    class="no-underline d-block bg-primary-light-hover p-y-md p-x-sm" title="Put people first">
-                    <div class="text-center">
-                        <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
-                                src="/images/value-one.svg" alt="Put people first icon"
-                                style="width:10.71429rem">
-                        </div>
-                        <p class="font-size-20 color-p2">Put people first</p>
-                    </div>
-                </a>
-
-            </div>
-            <div class="col-md-4 m-b-lg transform-scale-1_05--hover transition-0_3">
-                <a href="/principles/index.html#improvement"
-                    class="no-underline d-block bg-primary-light-hover p-y-md p-x-sm"
-                    title="Make Regular, Frequent improvement">
-                    <div class="text-center">
-                        <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
-                                src="/images/value-two.svg" alt="Continuous, timely improvement Icon"
-                                style="width:10.71429rem">
-                        </div>
-                        <p class="font-size-20 color-p2">Continuous, timely improvement</p>
-                    </div>
-                </a>
-
-            </div>
-            <div class="col-md-4 m-b-lg transform-scale-1_05--hover transition-0_3">
-
-                <a href="/principles/index.html#together"
-                    class="no-underline d-block bg-primary-light-hover p-y-md p-x-sm"
-                    title="Use and develop technology together">
-                    <div class="text-center">
-                        <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
-                                src="/images/value-three.svg" alt="Working together beats working alone icon"
-                                style="width:10.71429rem">
-                        </div>
-                        <p class="font-size-20 color-p2">Working together beats working alone</p>
-                    </div>
-                </a>
-
-            </div>
-        </div>
-    </div>
-</div>
 
         <!--OUR GOALS SECTION-->
         <div class="section-understated p-5">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="h2 m-b p-0 color-gray-dark">Our Goals and Challenges</h2>
-            </div>
-            <div class="group">
-                <div class="fifth m-b-lg">
-
-                    <a href="/goals/index.html#heading1"
-                        class="no-underline d-block bg-primary-light-hover p-y-md p-x-sm"
-                        title="Deliver clear, fast, secure and dependable public services">
-                        <div class="text-center">
-                            <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
-                                    src="/images/icon-goal1.png" alt="fast services icon"></div>
-                            <p class="font-size-20 color-p2">Deliver clear, fast, secure and dependable public
-                                services
-                            </p>
-                        </div>
-                    </a>
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="h2 m-b p-0 color-gray-dark">Our Goals and Challenges</h2>
                 </div>
-                <div class="fifth m-b-lg">
+                <div class="group">
+                    <div class="fifth m-b-lg">
 
-                    <a href="/goals/index.html#heading2"
-                        class="no-underline d-block bg-primary-light-hover p-y-md p-x-sm"
-                        title="Ensure public services are equitable and inclusive">
-                        <div class="text-center">
-                            <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
-                                    src="/images/icon-goal2.png" alt="inclusive services icon">
+                        <a href="./goals/index.html#heading1"
+                            class="no-underline d-block bg-primary-light-hover p-y-md p-x-sm"
+                            title="Deliver clear, fast, secure and dependable public services">
+                            <div class="text-center">
+                                <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
+                                        src="./images/icon-goal1.png" alt="fast services icon"></div>
+                                <p class="font-size-20 color-p2">Deliver clear, fast, secure and dependable public
+                                    services
+                                </p>
                             </div>
-                            <p class="font-size-20 color-p2">Ensure public services are equitable and inclusive</p>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
+                    <div class="fifth m-b-lg">
 
-                </div>
-                <div class="fifth m-b-lg">
-                    <a href="/goals/index.html#heading3"
-                        class="no-underline d-block bg-primary-light-hover p-y-md p-x-sm"
-                        title="Make it easier to share and reuse technology across government">
-                        <div class="text-center">
-                            <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
-                                    src="/images/icon-goal3.png" alt="reuse technology icon"></div>
-                            <p class="font-size-20 color-p2">Make common technology easy to access, use, share and reuse across government</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="fifth m-b-lg">
-                    <a href="/goals/index.html#heading4"
-                        class="no-underline d-block bg-primary-light-hover p-y-md p-x-sm"
-                        title="Transform government services more quickly and more  effectively">
-                        <div class="text-center">
-                            <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
-                                    src="/images/icon-goal4.png" alt="Transform icon">
+                        <a href="./goals/index.html#heading2"
+                            class="no-underline d-block bg-primary-light-hover p-y-md p-x-sm"
+                            title="Ensure public services are equitable and inclusive">
+                            <div class="text-center">
+                                <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
+                                        src="./images/icon-goal2.png" alt="inclusive services icon">
+                                </div>
+                                <p class="font-size-20 color-p2">Ensure public services are equitable and inclusive</p>
                             </div>
-                            <p class="font-size-20 color-p2">Build digital government more quickly and more effectively</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="fifth m-b-lggit">
-                    <a href="/goals/index.html#heading5"
-                        class="no-underline d-block bg-primary-light-hover p-y-md p-x-sm"
-                        title="Build integrated, multi-disciplinary teams empowered to  transform public services">
-                        <div class="text-center">
-                            <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
-                                    src="/images/icon-goal5.png" alt="multi-disciplinary teams icon">
+                        </a>
+
+                    </div>
+                    <div class="fifth m-b-lg">
+                        <a href="./goals/index.html#heading3"
+                            class="no-underline d-block bg-primary-light-hover p-y-md p-x-sm"
+                            title="Make it easier to share and reuse technology across government">
+                            <div class="text-center">
+                                <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
+                                        src="./images/icon-goal3.png" alt="reuse technology icon"></div>
+                                <p class="font-size-20 color-p2">Make common technology easy to access, use, share and
+                                    reuse across government</p>
                             </div>
-                            <p class="font-size-20 color-p2">Build confident, empowered multi-disciplinary teams</p>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
+
+                    <div class="fifth m-b-lg">
+                        <a href="./goals/index.html#heading4"
+                            class="no-underline d-block bg-primary-light-hover p-y-md p-x-sm"
+                            title="Transform government services more quickly and more  effectively">
+                            <div class="text-center">
+                                <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
+                                        src="./images/icon-goal4.png" alt="Transform icon">
+                                </div>
+                                <p class="font-size-20 color-p2">Build digital government more quickly and more
+                                    effectively</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="fifth m-b-lggit">
+                        <a href="./goals/index.html#heading5"
+                            class="no-underline d-block bg-primary-light-hover p-y-md p-x-sm"
+                            title="Build integrated, multi-disciplinary teams empowered to  transform public services">
+                            <div class="text-center">
+                                <div class="block-icon m-t-0"><img class="image-icon rounded-50x m-b"
+                                        src="./images/icon-goal5.png" alt="multi-disciplinary teams icon">
+                                </div>
+                                <p class="font-size-20 color-p2">Build confident, empowered multi-disciplinary teams</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="text-center">
+                <div class="text-center">
 
-                <a href="/goals/"
-                    class="btn btn-outline-primary btn-lg rounded-50">Learn more about our goals</a>
+                    <a href="./goals/" class="btn btn-outline-primary btn-lg rounded-50">Learn more about our goals</a>
+                </div>
             </div>
         </div>
-        </div>
 
-<!--WHAT'S NEXT SECTION-->
-            <div class="container p-5">
-                <div class="text-center">
-                    <h2 class="h2 pb-4 m-b color-gray-dark">What's Next</h2>
+        <!--WHAT'S NEXT SECTION-->
+        <div class="container p-5">
+            <div class="text-center">
+                <h2 class="h2 pb-4 m-b color-gray-dark">What's Next</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 m-b-md">
+                    <!-- Static Process -->
+                    <div class="text-center">
+                        <i class="dot-line progress-bold brd-transparent-before brd-primary-light-after">
+                            <span class="dot-line-inner bg-primary-light bg-primary-before brd-primary-light"></span>
+                        </i>
+                        <!-- <h3 class="h5 m-b">Step 1</h3> -->
+                        <p class="m-b-0 mt-4 h4">Prioritizing challenges</p>
+                    </div>
+                    <!-- End Static Process -->
                 </div>
-                <div class="row">
-                    <div class="col-sm-3 m-b-md">
-                        <!-- Static Process -->
-                        <div class="text-center">
-                            <i class="dot-line progress-bold brd-transparent-before brd-primary-light-after">
-                                <span
-                                    class="dot-line-inner bg-primary-light bg-primary-before brd-primary-light"></span>
-                            </i>
-                            <!-- <h3 class="h5 m-b">Step 1</h3> -->
-                            <p class="m-b-0 mt-4 h4">Prioritizing challenges</p>
-                        </div>
-                        <!-- End Static Process -->
-                    </div>
 
-                    <div class="col-sm-3 m-b-md">
-                        <!-- Static Process -->
-                        <div class="text-center">
-                            <i class="dot-line progress-bold brd-gray-light-before brd-gray-light-after">
-                                <span
-                                    class="dot-line-inner bg-grey-light brd-gray-light"></span>
-                            </i>
-                            <!-- <h3 class="h5 m-b">Step 2</h3> -->
-                            <p class="m-b-0 mt-4 h4">Building challenge teams</p>
-                        </div>
-                        <!-- End Static Process -->
+                <div class="col-sm-3 m-b-md">
+                    <!-- Static Process -->
+                    <div class="text-center">
+                        <i class="dot-line progress-bold brd-gray-light-before brd-gray-light-after">
+                            <span class="dot-line-inner bg-grey-light brd-gray-light"></span>
+                        </i>
+                        <!-- <h3 class="h5 m-b">Step 2</h3> -->
+                        <p class="m-b-0 mt-4 h4">Building challenge teams</p>
                     </div>
-
-                    <div class="col-sm-3 m-b-md">
-                        <!-- Static Process -->
-                        <div class="text-center">
-                            <i class="dot-line progress-bold brd-gray-light-before brd-gray-light-after">
-                                <span
-                                    class="dot-line-inner bg-grey-light brd-gray-light"></span>
-                            </i>
-                            <!-- <h3 class="h5 m-b">Step 3</h3> -->
-                            <p class="m-b-0 mt-4 h4">Developing objectives and key results</p>
-                        </div>
-                        <!-- End Static Process -->
-                    </div>
-
-                    <div class="col-sm-3 m-b-md">
-                        <!-- Static Process -->
-                        <div class="text-center">
-                            <i class="dot-line progress-bold brd-gray-light-before brd-transparent-after">
-                                <span
-                                    class="dot-line-inner bg-grey-light brd-gray-light"></span>
-                            </i>
-                            <!-- <h3 class="h5 m-b">Step 4</h3> -->
-                            <p class="m-b-0 mt-4 h4">Doing the work</p>
-                        </div>
-                        <!-- End Static Process -->
-                    </div>
+                    <!-- End Static Process -->
                 </div>
-                <div class="text-center">
-                    <a href="/next/"
-                        class="btn btn-outline-primary btn-lg rounded-50">Explore what's next</a>
+
+                <div class="col-sm-3 m-b-md">
+                    <!-- Static Process -->
+                    <div class="text-center">
+                        <i class="dot-line progress-bold brd-gray-light-before brd-gray-light-after">
+                            <span class="dot-line-inner bg-grey-light brd-gray-light"></span>
+                        </i>
+                        <!-- <h3 class="h5 m-b">Step 3</h3> -->
+                        <p class="m-b-0 mt-4 h4">Developing objectives and key results</p>
+                    </div>
+                    <!-- End Static Process -->
                 </div>
+
+                <div class="col-sm-3 m-b-md">
+                    <!-- Static Process -->
+                    <div class="text-center">
+                        <i class="dot-line progress-bold brd-gray-light-before brd-transparent-after">
+                            <span class="dot-line-inner bg-grey-light brd-gray-light"></span>
+                        </i>
+                        <!-- <h3 class="h5 m-b">Step 4</h3> -->
+                        <p class="m-b-0 mt-4 h4">Doing the work</p>
+                    </div>
+                    <!-- End Static Process -->
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="./next/" class="btn btn-outline-primary btn-lg rounded-50">Explore what's next</a>
+            </div>
         </div>
 
         <!-- components/det-involved.js reusable component -->
@@ -512,7 +497,6 @@
 
     </div>
     <span class="return-top"></span>
-    </div>
 
     <!-- Global Footer -->
     <footer id="footer" class="global-footer">
@@ -541,19 +525,24 @@
     <!-- Extra Decorative Content -->
     <div class="decoration-last">&nbsp;</div>
 
-    <!-- Load template core -->
-    <script src="/js/cagov.core.js"></script>
-
     <!--LOAD COMPONENTS-->
-    <script src="/components/main-nav.js"></script>
-    <script src="/components/utility-links.js"></script>
-    <script src="/components/get-involved.js"></script>
-    <script src="/components/download-pdf.js"></script>
-    <script src="/components/footer-links.js"></script>
-    <script src="/components/footer-nav.js"></script>
-
+    <script src="./components/main-nav.js"></script>
+    <script src="./components/utility-links.js"></script>
+    <script src="./components/get-involved.js"></script>
+    <script src="./components/download-pdf.js"></script>
+    <script src="./components/footer-links.js"></script>
+    <script src="./components/footer-nav.js"></script>
+    
+    <!-- Load template core -->
+    <script src="./js/cagov.core.js"></script>
+    
+    <!-- Required JS -->
+    <script src="./js/libs/jquery.js" type="text/javascript"></script>
+    <script src="./js/libs/jquery-migrate.min.js" type="text/javascript"></script>
+    
     <!--Translate -->
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript"
+        src=".//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');

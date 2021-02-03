@@ -15311,7 +15311,6 @@ $(document).ready(function () {
 
     if (mobileView()) {
         $('#navigation').addClass('collapse');
-        $('#navigation').addClass('collapse');
     }
 
 
@@ -15402,11 +15401,10 @@ $(window).on('resize', function () {
         return false;
     }
     else {
-        $("#navigation").addClass("collapse").removeClass("show").attr("aria-hidden", "true");
+        $("#navigation").addClass("collapse").attr("aria-hidden", "true");
         $(".toggle-menu").attr('aria-expanded', 'false');
         NavReset();
     }
-
 });
 
 // Reset on escape
@@ -15415,9 +15413,6 @@ $(document).keyup(function (e) {
         NavReset();
     }
 });
-
-
-
 
 /* Mobile Controls fix */
 $(document).ready(function () {

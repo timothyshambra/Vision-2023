@@ -14,7 +14,7 @@ window.customElements.define('utility-links', UtilityLinks);
 class MainNav extends window.HTMLElement {
     connectedCallback() {
         const { classPrefix, classList } = this.dataset;
-        this.innerHTML = `<nav id="navigation" class="main-navigation singlelevel auto-highlight no-icons nav collapse" aria-owns="nav-icon3">
+        this.innerHTML = `<nav id="navigation" class="main-navigation singlelevel auto-highlight no-icons nav" aria-owns="nav-icon3">
       <ul id="nav_list" class="top-level-nav">
         <li class="nav-item">
             <a href="/" class="first-level-link">Home</a>

@@ -110,3 +110,4 @@ class FooterLinks extends window.HTMLElement {
 
 }
 window.customElements.define('footer-links', FooterLinks);
+document.getElementById("year").innerHTML = new Date().getFullYear();

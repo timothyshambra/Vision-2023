@@ -12,7 +12,6 @@
 
     <!-- State Template CDN CSS -->
     <link rel="stylesheet" href="/css/colorscheme-oceanside.css"> <!-- Modified -->
-
     <link rel="stylesheet" href="/css/cagov.core.css">
 
     <!-- apple touch icons -->
@@ -60,13 +59,8 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
-        //statewide GA property
-        gtag('config', 'UA-3419582-2');
-        //please update state department UA code in line below before deployment	
+        
         gtag('config', 'UA-21974567-43');
-        //un-comment line below and update UA code to add a third GA property
-        //gtag('config', 'UA-xxxxxx-xx');
 
         var getOutboundLink = function (url) {
             gtag('event', 'click', {
@@ -92,42 +86,33 @@
             font-size: 64px;
             font-weight: 300;
         }
-
         .h2 {
             color: #3b1369;
         }
-
         .bg-primary-light-hover:hover,
         .bg-primary-light-hover:focus {
             background-color: #F6F5F8 !important;
         }
-
         .section-understated .bg-primary-light-hover:hover,
         .section-understated .bg-primary-light-hover:focus {
             background-color: #f0edf6 !important;
         }
-
         .bear-img {
             right: -150px;
             top: -100px;
             max-height: 600px;
         }
-
         .font-size-20 {
             font-size: 1.28rem !important;
         }
-
         .section-primary {
             background: rgb(30, 19, 105);
             background: linear-gradient(90deg, rgba(30, 19, 105, 1) 0%, rgba(59, 19, 105, 1) 100%);
         }
-
         .gradient-primary-blue {
             background: rgb(30, 19, 105);
             background: linear-gradient(90deg, rgba(30, 19, 105, 1) 0%, rgba(59, 19, 105, 1) 100%);
-
         }
-
         .btn-default--inline {
             text-decoration: none !important;
             border: 0;
@@ -137,12 +122,11 @@
             padding: 0;
             font-weight: 200;
         }
-
         .btn-outline-light {
             transition: all 0.5s;
         }
     </style>
-    
+
 </head>
 
 <body style="position: relative; min-height: 100%; top: 0px;">
@@ -162,10 +146,6 @@
                                     class="ca-gov-icon-home"><span class="sr-only">Back</span></span> Department of
                                 Technology Services</a>
                         </div>
-                        <!--a href="/" class="ca-gov-icon-home"><span class="sr-only">Home</span></a>
-                        <a href="/" class="ca-gov-icon-facebook"><span class="sr-only">Facebook</span></a>
-                        <a href="/" class="ca-gov-icon-twitter"><span class="sr-only">Twitter</span></a>
-                        <a href="/" class="ca-gov-icon-email"><span class="sr-only">Email</span></a> -->
                     </div>
                     <div class="settings-links">
                         <!--componetns/utility-links.js component-->
@@ -177,7 +157,6 @@
 
         <div class="site-settings section section-standout collapse collapsed" id="siteSettings">
             <div class="container p-y">
-
                 <div class="btn-group btn-group-justified-sm" aria-label="contrastMode">
                     <div class="btn-group">
                         <button type="button" class="btn btn-standout disableHighContrastMode">Default</button>
@@ -255,7 +234,6 @@
         <div class="header-decoration"></div>
     </header>
     <!--MAIN-->
-
     <div id="main-content" class="main-content">
         <div class="section-primary p-sm-3 p-md-5 background-purple">
             <div class="container p-b-lg pos-rel">
@@ -524,8 +502,7 @@
         <!-- Copyright Statement -->
         <div class="copyright">
             <div class="container">
-                Copyright ©
-                <script>document.write(new Date().getFullYear())</script> State of California
+                Copyright © 2021 State of California
             </div>
         </div>
 
@@ -538,24 +515,25 @@
     <!-- Extra Decorative Content -->
     <div class="decoration-last">&nbsp;</div>
 
-  
+
     <!-- Required JS -->
     <script src="/js/libs/jquery.js" type="text/javascript"></script>
     <script src="/js/libs/jquery-migrate.min.js" type="text/javascript"></script>
 
     <!-- Load template core -->
     <script src="/js/cagov.core.js"></script>
-    
+
     <!--LOAD COMPONENTS-->
-    <script src="./components/main.js" preload></script>
-    
+    <script src="/components/main.js" preload></script>
+
     <!--Translate -->
-    <script type="text/javascript"
-        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" defer></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+        defer></script>
     <script type="text/javascript" defer>
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
-        }</script>
+        }
+    </script>
 
 </body>
 

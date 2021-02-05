@@ -10,10 +10,6 @@
     <meta name="keywords" content="Vision 2023, innovative, Technology, Solutions, California">
     <title>Vision 2023 | Our principles</title>
 
-
-
-
-
     <!-- State Template CDN CSS -->
     <link rel="stylesheet" href="/css/cagov.core.css">
     <link rel="stylesheet" href="/css/colorscheme-oceanside.css"> <!-- Modified -->
@@ -62,44 +58,44 @@
     <!---FORM  -->
 
     <!-- Insert everything below in the <body>. -->
-    <!--ANALYTICS-->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-21974567-43"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    //statewide GA property
-    gtag('config', 'UA-3419582-2');
-    //please update state department UA code in line below before deployment	
-    gtag('config', 'UA-21974567-43');
-    //un-comment line below and update UA code to add a third GA property
-    //gtag('config', 'UA-xxxxxx-xx');
-
-    var getOutboundLink = function (url) {
-        gtag('event', 'click', {
-        'event_category': 'navigation',
-        'event_label': 'outbound link: ' + url,
-        'transport_type': 'beacon',
-        'event_callback': function () { document.location = url; }
-        });
-    }
-
-    var trackDownload = function (filename) {
-        gtag('event', 'click', {
-        'event_category': 'download',
-        'event_label': 'file: ' + filename,
-        'transport_type': 'beacon',
-        'event_callback': function () { document.location = url; }
-        });
-    }
-    </script>
     <style>
         .section-primary {
             background: rgb(30, 19, 105);
             background: linear-gradient(90deg, rgba(30, 19, 105, 1) 0%, rgba(59, 19, 105, 1) 100%);
         }
     </style>
+
+    <!-- State Template CDN CSS -->
+    <link rel="stylesheet" href="/css/cagov.core.css">
+    <link rel="stylesheet" href="/css/colorscheme-oceanside.css"> <!-- Modified -->
+
+    <!--ANALYTICS-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-21974567-43"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-21974567-43');
+
+        var getOutboundLink = function (url) {
+            gtag('event', 'click', {
+                'event_category': 'navigation',
+                'event_label': 'outbound link: ' + url,
+                'transport_type': 'beacon',
+                'event_callback': function () { document.location = url; }
+            });
+        }
+
+        var trackDownload = function (filename) {
+            gtag('event', 'click', {
+                'event_category': 'download',
+                'event_label': 'file: ' + filename,
+                'transport_type': 'beacon',
+                'event_callback': function () { document.location = url; }
+            });
+        }
+    </script>
 </head>
 
 <body style="position: relative; min-height: 100%; top: 0px;">
@@ -234,7 +230,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 mx-auto">
-                        <p class="lead">The emergencies of 2020 strained the state’s operations and highlighted the importance of technology in supporting Californians in their time of need. These principles are the bedrock of how we use technology. By applying them together, we will bring our vision to life. 
+                        <p class="lead">The emergencies of 2020 strained the state’s operations and highlighted the
+                            importance of technology in supporting Californians in their time of need. These principles
+                            are the bedrock of how we use technology. By applying them together, we will bring our
+                            vision to life.
 
                         </p>
 
@@ -251,24 +250,34 @@
 
                     <h2 id="people-first">1. Put people first</h2>
                     <p>In 2020, doing our job required a clear focus on putting people first.</p>
-                    <p>In 2020, putting people first meant a multi-agency team building <a href="https://covid19.ca.gov/">covid19.ca.gov</a> in order to meet Californians’ need for understandable, accurate and up-to-date information.
+                    <p>In 2020, putting people first meant a multi-agency team building <a
+                            href="https://covid19.ca.gov/">covid19.ca.gov</a> in order to meet Californians’ need for
+                        understandable, accurate and up-to-date information.
                     </p>
-                    <p>We achieved this by doing the hard work to understand what Californians and the public servants working for them needed, applying disciplines like user research, analytics, product management, continuous delivery and more. 
+                    <p>We achieved this by doing the hard work to understand what Californians and the public servants
+                        working for them needed, applying disciplines like user research, analytics, product management,
+                        continuous delivery and more.
                     </p>
 
 
                     <h2 id="improvement">2. Continuous, timely improvement</h2>
-                    <p>COVID-19 showed us how public services are ready to adapt quickly and flexibly in changing circumstances. But those improvements must be timely, too. 
+                    <p>COVID-19 showed us how public services are ready to adapt quickly and flexibly in changing
+                        circumstances. But those improvements must be timely, too.
                     </p>
-                    <p>Across all of government, we must develop and nurture a culture and the skills needed to update and improve systems and services every day, rather than waiting for large, complete replacements of IT systems.
+                    <p>Across all of government, we must develop and nurture a culture and the skills needed to update
+                        and improve systems and services every day, rather than waiting for large, complete replacements
+                        of IT systems.
                     </p>
 
 
 
                     <h2 id="together">3. Working together beats working alone</h2>
-                    <p>We saw the best of public service when small multi-disciplinary teams came together from different departments and agencies to solve big challenges. 
+                    <p>We saw the best of public service when small multi-disciplinary teams came together from
+                        different departments and agencies to solve big challenges.
                     </p>
-                    <p>With a common goal of putting people first, diverse disciplines, state staff, civic technologists and private sector partners designed and delivered compassionate, human-centered services at speed, improving every day through fast feedback.</p>
+                    <p>With a common goal of putting people first, diverse disciplines, state staff, civic technologists
+                        and private sector partners designed and delivered compassionate, human-centered services at
+                        speed, improving every day through fast feedback.</p>
                 </div>
             </div>
         </div>
@@ -292,57 +301,53 @@
     </div>
     <span class="return-top"></span>
 
-
     <!-- Global Footer -->
     <footer id="footer" class="global-footer">
         <div class="container">
             <div class="row">
                 <div class="three-quarters">
-
                     <!-- components/footer-nav.js component -->
                     <footer-nav></footer-nav>
 
                 </div>
-
             </div>
-
         </div>
         <!-- Copyright Statement -->
         <div class="copyright">
             <div class="container">
-                Copyright ©
-                <script>document.write(new Date().getFullYear())</script> State of California
+                Copyright © <span id="year"></span> State of California
             </div>
         </div>
-
     </footer>
+
+    <link rel="preload" href="/fonts/Montserrat-Light.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Montserrat-Regular.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Montserrat-Medium.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Montserrat-Bold.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/CaGov.ttf?ocljyw" as="font" crossorigin="anonymous" />
 
     <!-- Extra Decorative Content -->
     <div class="decoration-last">&nbsp;</div>
 
+    <!--LOAD COMPONENTS-->
+    <script preload src="/components/main.js"></script>
 
+    <!-- Required JS -->
+    <script src="/js/libs/jquery.js" type="text/javascript"></script>
+    <script defer src="/js/libs/jquery-migrate.min.js" type="text/javascript"></script>
 
     <!-- Load template core -->
-    <script src="/js/cagov.core.js"></script>
-
-
-    <!--LOAD COMPONENTS-->
-    <!--LOAD COMPONENTS-->
-    <script src="/components/main-nav.js"></script>
-    <script src="/components/utility-links.js"></script>
-    <script src="/components/get-involved.js"></script>
-    <script src="/components/download-pdf.js"></script>
-    <script src="/components/footer-links.js"></script>
-    <script src="/components/footer-nav.js"></script>
-
+    <script src="/js/cagov.core.min.js"></script>
 
     <!--Translate -->
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" defer
+        bsrc="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
-        }</script>
-
+        }
+        window.onload = googleTranslateElementInit
+    </script>
 </body>
 
 </html>

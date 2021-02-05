@@ -10,10 +10,6 @@
     <meta name="keywords" content="Vision 2023, innovative, Technology, Solutions, California">
     <title>Vision 2023 | Our goals</title>
 
-
-
-
-
     <!-- State Template CDN CSS -->
     <link rel="stylesheet" href="/css/cagov.core.css">
     <link rel="stylesheet" href="/css/colorscheme-oceanside.css"> <!-- Modified -->
@@ -46,8 +42,6 @@
         href="https://california.azureedge.net/cdt/statetemplate/5.5.18/images/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon"
         href="https://california.azureedge.net/cdt/statetemplate/5.5.18/images/apple-touch-icon.png">
-
-    <!-- For everything else -->
     <link rel="shortcut icon" href="/favicon.ico">
 
     <!-- Activate ClearType for Mobile IE -->
@@ -62,38 +56,6 @@
     <!---FORM  -->
 
     <!-- Insert everything below in the <body>. -->
-    <!--ANALYTICS-->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-21974567-43"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    //statewide GA property
-    gtag('config', 'UA-3419582-2');
-    //please update state department UA code in line below before deployment	
-    gtag('config', 'UA-21974567-43');
-    //un-comment line below and update UA code to add a third GA property
-    //gtag('config', 'UA-xxxxxx-xx');
-
-    var getOutboundLink = function (url) {
-        gtag('event', 'click', {
-        'event_category': 'navigation',
-        'event_label': 'outbound link: ' + url,
-        'transport_type': 'beacon',
-        'event_callback': function () { document.location = url; }
-        });
-    }
-
-    var trackDownload = function (filename) {
-        gtag('event', 'click', {
-        'event_category': 'download',
-        'event_label': 'file: ' + filename,
-        'transport_type': 'beacon',
-        'event_callback': function () { document.location = url; }
-        });
-    }
-    </script>
     <style>
         .section-primary {
             background: rgb(30, 19, 105);
@@ -105,12 +67,47 @@
             padding-right: 19% !important;
             margin-left: 1.7rem !important;
         }
+
         .accordion .panel:focus-within {
-    outline: solid 2px #2ea3f2;
-}
-.accordion .panel a:focus {
-    outline: none;}
+            outline: solid 2px #2ea3f2;
+        }
+
+        .accordion .panel a:focus {
+            outline: none;
+        }
     </style>
+
+    <!-- State Template CDN CSS -->
+    <link rel="stylesheet" href="/css/cagov.core.css">
+    <link rel="stylesheet" href="/css/colorscheme-oceanside.css"> <!-- Modified -->
+
+    <!--ANALYTICS-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-21974567-43"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-21974567-43');
+
+        var getOutboundLink = function (url) {
+            gtag('event', 'click', {
+                'event_category': 'navigation',
+                'event_label': 'outbound link: ' + url,
+                'transport_type': 'beacon',
+                'event_callback': function () { document.location = url; }
+            });
+        }
+
+        var trackDownload = function (filename) {
+            gtag('event', 'click', {
+                'event_category': 'download',
+                'event_label': 'file: ' + filename,
+                'transport_type': 'beacon',
+                'event_callback': function () { document.location = url; }
+            });
+        }
+    </script>
 </head>
 
 <body style="position: relative; min-height: 100%; top: 0px;">
@@ -244,265 +241,424 @@
 
 
         <div class="section-understated">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-8 mx-auto">
 
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-md-8 mx-auto">
+                        <!--Accordions-->
 
-                    <!--Accordions-->
-
-                    <div class="panel-group accordion" id="example-accordion" role="tablist"
-                        aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading1">
-                                <h4 class="panel-title">
-                                    <a class="collapsed h3 m-0" data-toggle="collapse" data-parent="#example-accordion"
-                                        href="#collapse1" aria-controls="collapse1">1. Deliver easy-to-use, fast, dependable and secure public services </a>
-                                </h4>
-                            </div>
-                            <div id="collapse1" class="panel-collapse collapse" role="tabpanel"
-                                aria-labelledby="heading1">
-                                <div class="panel-body p-5">
-                                    <blockquote>
-                                        <p>Claimants shouldn't have to understand the structure of a department to receive benefits they’ve already paid for.
+                        <div class="panel-group accordion" id="example-accordion" role="tablist"
+                            aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="heading1">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed h3 m-0" data-toggle="collapse"
+                                            data-parent="#example-accordion" href="#collapse1"
+                                            aria-controls="collapse1">1. Deliver easy-to-use, fast, dependable and
+                                            secure public services </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse1" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="heading1">
+                                    <div class="panel-body p-5">
+                                        <blockquote>
+                                            <p>Claimants shouldn't have to understand the structure of a department to
+                                                receive benefits they’ve already paid for.
                                             </p>
-                                            <footer>User research interview with Carol Williams, Chief Deputy Director of
+                                            <footer>User research interview with Carol Williams, Chief Deputy Director
+                                                of
                                                 Operations, Employment Development Department</footer>
-                                    </blockquote>
+                                        </blockquote>
 
-                                    <p>COVID-19 and wildfires reminded us that government services can mean the difference between life and death. When government fell short, state staff and technology company partners responded with creativity and dedication, improving services quickly and deliberately. 
-                                    </p>
+                                        <p>COVID-19 and wildfires reminded us that government services can mean the
+                                            difference between life and death. When government fell short, state staff
+                                            and technology company partners responded with creativity and dedication,
+                                            improving services quickly and deliberately.
+                                        </p>
 
-                                    <p><strong>Public services should be easy to use.</strong>  We’ve seen and heard that the quality of our public services is inconsistent. Before COVID-19, Californians could only apply for some services in person. They could use some services online, but only at a computer, not on a phone. People entering the wrong information repeatedly is a sign that we must make services easier to understand and use, and many people aren’t confident enough to use online services and find them confusing or alienating. </p>
+                                        <p><strong>Public services should be easy to use.</strong> We’ve seen and heard
+                                            that the quality of our public services is inconsistent. Before COVID-19,
+                                            Californians could only apply for some services in person. They could use
+                                            some services online, but only at a computer, not on a phone. People
+                                            entering the wrong information repeatedly is a sign that we must make
+                                            services easier to understand and use, and many people aren’t confident
+                                            enough to use online services and find them confusing or alienating. </p>
 
-                                    <p><strong>Public services should be fast.</strong> Californians expect and demand fast services from their government. Fast services require understanding what fast means for users and identifying bottlenecks in those services. It also requires empowering our state staff to be part of the process. We must look for bottlenecks in our own processes and policies, and rewrite them to be simpler, clearer, more straightforward and to make use of automation. </p>
+                                        <p><strong>Public services should be fast.</strong> Californians expect and
+                                            demand fast services from their government. Fast services require
+                                            understanding what fast means for users and identifying bottlenecks in those
+                                            services. It also requires empowering our state staff to be part of the
+                                            process. We must look for bottlenecks in our own processes and policies, and
+                                            rewrite them to be simpler, clearer, more straightforward and to make use of
+                                            automation. </p>
 
-                                    <p><strong>Public services must be dependable.</strong>  Californians must be able to trust their government. We earn that trust by making sure government services are dependable. This means information like public health data and guidance must be accurate, up-to-date and useful. 
-                                    </p>
+                                        <p><strong>Public services must be dependable.</strong> Californians must be
+                                            able to trust their government. We earn that trust by making sure government
+                                            services are dependable. This means information like public health data and
+                                            guidance must be accurate, up-to-date and useful.
+                                        </p>
 
 
-                                    <p><strong>Public services must be secure.</strong> Californians share their personal information, data and resources with their government. They must be confident that government will keep their information private and secure, and that government will steward their resources, preventing fraud and abuse. </p>
+                                        <p><strong>Public services must be secure.</strong> Californians share their
+                                            personal information, data and resources with their government. They must be
+                                            confident that government will keep their information private and secure,
+                                            and that government will steward their resources, preventing fraud and
+                                            abuse. </p>
 
-                                   
 
-                                    <a href="https://ca-code-works.github.io/Vision-2023/challenge/one.html"
-                                        class="btn btn-secondary" title="Goal #1 challenges">Explore this goal's
-                                        challenges</a>
+
+                                        <a href="https://ca-code-works.github.io/Vision-2023/challenge/one.html"
+                                            class="btn btn-secondary" title="Goal #1 challenges">Explore this goal's
+                                            challenges</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading2">
-                                <h4 class="panel-title">
-                                    <a class="collapsed  h3 m-0" data-toggle="collapse" data-parent="#example-accordion"
-                                        href="#collapse2" aria-controls="collapse2">2. Ensure public services are equitable and inclusive</a>
-                                </h4>
-                            </div>
-                            <div id="collapse2" class="panel-collapse collapse" role="tabpanel"
-                                aria-labelledby="heading2">
-                                <div class="panel-body p-5">
-                                    <blockquote>
-                                        <p>It feels like we assume the public are upper-middle-class white people with college degrees.
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="heading2">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed  h3 m-0" data-toggle="collapse"
+                                            data-parent="#example-accordion" href="#collapse2"
+                                            aria-controls="collapse2">2. Ensure public services are equitable and
+                                            inclusive</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse2" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="heading2">
+                                    <div class="panel-body p-5">
+                                        <blockquote>
+                                            <p>It feels like we assume the public are upper-middle-class white people
+                                                with college degrees.
                                             </p>
-                                            <footer>User research interview with Christian Griffith, Chief Consultant, Assembly Budget Committee</footer>
-                                    </blockquote>
+                                            <footer>User research interview with Christian Griffith, Chief Consultant,
+                                                Assembly Budget Committee</footer>
+                                        </blockquote>
 
-                                    <p>COVID-19 showed how public services can mean the difference between life and death. Given these stakes, the state has an obligation to make sure all Californians can equitably access public services. Technology plays a critical role in meeting that obligation. </p>
+                                        <p>COVID-19 showed how public services can mean the difference between life and
+                                            death. Given these stakes, the state has an obligation to make sure all
+                                            Californians can equitably access public services. Technology plays a
+                                            critical role in meeting that obligation. </p>
 
-                                    <p>Making public services fair and inclusive requires focus and work. 
-                                    </p>
+                                        <p>Making public services fair and inclusive requires focus and work.
+                                        </p>
 
-                                    <p>In California, nearly 16 million Californians speak a language other than (or besides) English. And non-native English speakers include many of the most vulnerable Californians. But many public services can appear as if these Californians were an afterthought. 
-                                    </p>
+                                        <p>In California, nearly 16 million Californians speak a language other than (or
+                                            besides) English. And non-native English speakers include many of the most
+                                            vulnerable Californians. But many public services can appear as if these
+                                            Californians were an afterthought.
+                                        </p>
 
-                                    <p>Different abilities may require people to engage with technology differently. They may need screen readers or web pages with more distinct colors. This is not a niche issue. Nearly a quarter of adult Californians have some kind of disability. Throughout our lives, most of us will experience disability, whether permanently or temporarily. Assembly Bill 434 (AB-434) recognized this by requiring government websites to comply with industry and federal accessibility standards. But being inclusive and accessible to all is more far reaching than complying with rules. It requires understanding the needs of those we seek to include, and testing with them to help ensure we meet the mark.</p>
+                                        <p>Different abilities may require people to engage with technology differently.
+                                            They may need screen readers or web pages with more distinct colors. This is
+                                            not a niche issue. Nearly a quarter of adult Californians have some kind of
+                                            disability. Throughout our lives, most of us will experience disability,
+                                            whether permanently or temporarily. Assembly Bill 434 (AB-434) recognized
+                                            this by requiring government websites to comply with industry and federal
+                                            accessibility standards. But being inclusive and accessible to all is more
+                                            far reaching than complying with rules. It requires understanding the needs
+                                            of those we seek to include, and testing with them to help ensure we meet
+                                            the mark.</p>
 
-                                    <p>Making public services more accessible and inclusive improves the experience for everyone. We do not intend to exclude. But our defaults make exclusion more common than we would like to admit. For example, many websites are written at a post-graduate reading level. This is typical of government writing. Simplifying the information we share with the public to a 6th grade reading level makes it easier for all Californians to understand and engage with their government. Inclusion is hard work. It requires dedication and focus.
-                                    </p>
+                                        <p>Making public services more accessible and inclusive improves the experience
+                                            for everyone. We do not intend to exclude. But our defaults make exclusion
+                                            more common than we would like to admit. For example, many websites are
+                                            written at a post-graduate reading level. This is typical of government
+                                            writing. Simplifying the information we share with the public to a 6th grade
+                                            reading level makes it easier for all Californians to understand and engage
+                                            with their government. Inclusion is hard work. It requires dedication and
+                                            focus.
+                                        </p>
 
-                                    <p>Diverse teams help. What we put out to the world reflects our biases and experiences. We need teams that look like California as we build technology to serve Californians. Building these teams requires hiring talent, partnering and purchasing services from people who reflect the totality of California. COVID-19 illustrated how a simple change such as dropping the requirement to be on-site in Sacramento — opened the state to vendors and talent who are normally excluded. We can and must make our broader state technology community better reflect our state. 
-                                    </p>
+                                        <p>Diverse teams help. What we put out to the world reflects our biases and
+                                            experiences. We need teams that look like California as we build technology
+                                            to serve Californians. Building these teams requires hiring talent,
+                                            partnering and purchasing services from people who reflect the totality of
+                                            California. COVID-19 illustrated how a simple change such as dropping the
+                                            requirement to be on-site in Sacramento — opened the state to vendors and
+                                            talent who are normally excluded. We can and must make our broader state
+                                            technology community better reflect our state.
+                                        </p>
 
-                                    <a class="btn btn-secondary"
-                                        href="https://ca-code-works.github.io/Vision-2023/challenge/two.html"
-                                        title="Goal #2 challenges">Explore this goal's challenges</a>
+                                        <a class="btn btn-secondary"
+                                            href="https://ca-code-works.github.io/Vision-2023/challenge/two.html"
+                                            title="Goal #2 challenges">Explore this goal's challenges</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="heading3">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed h3 m-0" data-toggle="collapse"
+                                            data-parent="#example-accordion" href="#collapse3"
+                                            aria-controls="collapse3">3. Make common technology easy to access, use,
+                                            share and reuse across government</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="heading3">
+                                    <div class="panel-body p-5">
+                                        <blockquote>
+                                            <p>Our scale is so big. We have over 60,000 employees. Per user, year over
+                                                year, that all adds up.</p>
+                                            <footer>User research interview with Russ Nichols, Agency Information
+                                                Officer, CA Department of Corrections and Rehabilitation</footer>
+                                        </blockquote>
+
+                                        <p>Many of the jobs to be done across government involve common needs and tasks.
+                                        </p>
+
+                                        <p>There are common needs to deliver services to the public. When we examined
+                                            large technology projects in planning across the state we found 79 case
+                                            management systems across 22 departments; 45 reporting systems across 15
+                                            departments; 27 licensing systems across 23 departments; 23 claims
+                                            management systems across 7 departments and 20 content management systems
+                                            across 10 departments.
+                                        </p>
+
+                                        <p>There are also common infrastructure needs, ranging from document management
+                                            and electronic signatures to identity authentication, verification and
+                                            validation.
+                                        </p>
+
+
+
+                                        <p>Instead of tackling these problems with a collective approach, the state
+                                            environment makes it easier for departments and programs to pursue
+                                            individual projects. In some cases, it is difficult for programs to simply
+                                            and easily reuse what has been successful elsewhere.
+
+                                        </p>
+
+                                        <p>To deliver value to users more quickly, we must pool our investments and
+                                            efforts into a shared digital infrastructure. We can do this by using common
+                                            technology that can be adapted, shared and reused across the state. For most
+                                            common problems, this will mean developing a suite of demonstrated
+                                            approaches to be used by default, unless exceptions are met.
+                                        </p>
+
+                                        <p>To build this shared infrastructure, we will need to practice and develop
+                                            expertise in working at scale. We will need to make it easier and faster for
+                                            teams to apply shared experience and patterns to solve problems. And we will
+                                            need to make it easier and faster for teams to acquire modern, common
+                                            technology for common needs like document management, helpdesk and support
+                                            services, and identity authentication and verification.
+                                        </p>
+                                        <blockquote>
+                                            <p>How can we work together in one shared environment, as one organization?
+                                            </p>
+                                            <footer>User research interview with Krista Canellakis, Deputy Secretary for
+                                                General Services, Government Operations Agency</footer>
+                                        </blockquote>
+
+                                        <p>Staff in different departments need to be able to find each other in seconds,
+                                            collaborate on documents and data in real-time and chat on video, no matter
+                                            where they are. They need consistent, easy access to the modern tools to do
+                                            their jobs, from analyzing or sharing data to managing projects.
+                                        </p>
+                                        <p>Centralizing and standardizing on common technology choices make it easier
+                                            for us to take advantage of our scale as the world’s fifth-largest economy.
+                                            We have a duty to use our size to deliver better services at a responsible
+                                            cost, allowing us to use our public funds to better serve people. This does
+                                            not mean locking the state into a single choice, or vendor or inflexible
+                                            static standards. It means understanding user needs and providing managed
+                                            choices and flexibility.
+                                        </p>
+                                        <p>Most importantly, achieving this goal will make it faster and easier for
+                                            teams to solve actual Californians’ problems, such as receiving emergency
+                                            grant funding, starting businesses or finding child care.
+                                        </p>
+
+                                        <a class="btn btn-secondary"
+                                            href="https://ca-code-works.github.io/Vision-2023/challenge/three.html"
+                                            title="Goal #3 challenges">Explore this goal's challenges</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="heading4">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed h3 m-0" data-toggle="collapse"
+                                            data-parent="#example-accordion" href="#collapse4"
+                                            aria-controls="collapse4">4. Build digital government more quickly and more
+                                            effectively</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse4" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="heading4">
+                                    <div class="panel-body p-5">
+                                        <p>The COVID-19 pandemic forced our government to adapt rapidly and rethink how
+                                            we serve 40 million Californians. We had to adapt our older technology and
+                                            implement new solutions to help people quickly, sometimes in just days.
+                                        </p>
+
+                                        <p>In our work, we found departments hungry to use technology to dramatically
+                                            improve service delivery and outcomes. But they felt that technology is not
+                                            doing as much as it should. We heard from leaders and program teams about
+                                            how it is difficult to make such improvements quickly and effectively.
+                                        </p>
+
+                                        <p>Part of how we will build digital government faster and more effectively is
+                                            addressed by our goal of making common technology easy to access, use, share
+                                            and reuse across government. But common technology is only part of the
+                                            answer.
+                                        </p>
+
+                                        <p>The situation can be more complicated when it comes to the technology that
+                                            supports core public services.
+                                        </p>
+
+                                        <p>Some of the foundations of our government are large complex programs. These
+                                            programs usually involve older technology infrastructure (“legacy”
+                                            technology, often running on state mainframes). Achieving our vision
+                                            requires successful, replicable approaches so these kinds of programs can
+                                            quickly and efficiently meet people’s continually changing needs.
+                                        </p>
+
+                                        <p>Technological improvements are typically scoped and implemented as
+                                            “projects.” There are defined requirements, budgets and schedules
+                                            pre-specified years before completion. The process to approve these projects
+                                            can take years. Technology investments should receive approvals and
+                                            oversight. But there is growing recognition across agencies, departments,
+                                            legislative staff and the Legislative Analyst’s Office that we need pathways
+                                            to get to better faster.
+                                        </p>
+                                        <p>Last, there is a common desire for learning from our collective experiences
+                                            using technology to improve public services across the state. Even though
+                                            the particulars may vary, every technology investment is an opportunity to
+                                            improve our knowledge about how to build digital government. Building
+                                            digital government more quickly, and more effectively requires making
+                                            success easy to copy, and making failures easy to learn from.
+                                        </p>
+
+                                        <a class="btn btn-secondary"
+                                            href="https://ca-code-works.github.io/Vision-2023/challenge/four.html"
+                                            title="Goal #4 challenges">Explore this goal's challenges</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="heading5">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed h3 m-0" data-toggle="collapse"
+                                            data-parent="#example-accordion" href="#collapse5"
+                                            aria-controls="collapse5">5. Build confident, empowered multi-disciplinary
+                                            teams</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse5" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="heading5">
+                                    <div class="panel-body p-5">
+                                        <blockquote>
+                                            <p>Technology is a product of the culture that builds it.</p>
+                                            <footer>Kellan Elliott-McCrea, former Chief Technology Officer, Etsy
+                                            </footer>
+                                        </blockquote>
+
+                                        <blockquote>
+                                            <p>It’s hard for me as a director when I don’t have IT project experience.
+                                            </p>
+                                            <footer>User research interview with Eraina Ortega, Director, California
+                                                Department of Human Resources </footer>
+                                        </blockquote>
+
+                                        <p>Our public servants are smart and dedicated. They want to spend their time on
+                                            hard problems, and for technology to remove routine items from their plate.
+                                        </p>
+
+                                        <p>Agency, departmental and technology leaders candidly told us about wanting to
+                                            avoid the failure of bold initiatives. They told us about being scared by
+                                            technical jargon, not knowing what’s possible or where to start, but being
+                                            eager and willing to learn.
+                                        </p>
+
+                                        <p>All state staff shared the need for an environment that supports learning and
+                                            of the need for consistent support and guidance. Empowered teams need safe
+                                            places to learn, where they can speak up, test new ideas and have tough
+                                            conversations. This means acknowledging not only where we fall short, but
+                                            also the risks of not changing. We must create spaces for empowered teams to
+                                            build, release, learn and improve.
+                                        </p>
+
+                                        <p>We also heard loudly that progress means bringing new skills, experience and
+                                            talent into government. New, critical services like COVID-19 notifications
+                                            were possible because we hired or partnered to bring designers, user
+                                            researchers, data engineers and more into our teams.
+                                        </p>
+
+                                        <p>We can’t form these teams without technology companies and the vendor
+                                            community. When COVID-19 forced the state to drop the requirement for
+                                            vendors to be on-site it became easier for the state to acquire skills,
+                                            significantly increasing the pool of vendors with which to collaborate.
+                                            Remote, multi-disciplinary teams allowed the state to experiment with and
+                                            gain an understanding of what skills were needed, how these skills could be
+                                            best obtained, and lastly, how they can be developed.
+                                        </p>
+
+                                        <p>Technology does not solve problems alone. Successful departments and teams
+                                            organize themselves around common goals, working across silos, from the
+                                            bottom up and from the executive level down. Executives should build and
+                                            create space for multi-disciplinary teams from the beginning. These teams
+                                            are not successful when space for them is created and supported as an
+                                            afterthought.
+                                        </p>
+
+                                        <p>No one person has the right answers to the most important problems. More
+                                            importantly, because change is a constant, the right answer today may not be
+                                            the right answer in the future. We need to invest in the people, teams, and
+                                            culture that will help continually learn and solve problems.
+                                        </p>
+
+                                        <p>Knowing how to do this cannot be hard to figure out. But developing the
+                                            people, skills and culture of continually learning and solving problems
+                                            across all of government is a long-term goal. We need to celebrate and learn
+                                            from the teams who are doing this well, and share that knowledge widely. We
+                                            need to make it easy to create open spaces, build multi-disciplinary teams
+                                            and hire the best vendors to complement our staff.
+                                        </p>
+                                        <p>In the end, our people and teams are those who do the work. Together, they
+                                            will build the infrastructure we need, understand the problems that need
+                                            solving and deliver our vision of compassionate, human-centered, effective
+                                            and efficient government.
+                                        </p>
+
+                                        <a class="btn btn-secondary"
+                                            href="https://ca-code-works.github.io/Vision-2023/challenge/five.html"
+                                            title="Goal #5 challenges">Explore this goal's challenges</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading3">
-                                <h4 class="panel-title">
-                                    <a class="collapsed h3 m-0" data-toggle="collapse" data-parent="#example-accordion"
-                                        href="#collapse3" aria-controls="collapse3">3. Make common technology easy to access, use, share and reuse across government</a>
-                                </h4>
-                            </div>
-                            <div id="collapse3" class="panel-collapse collapse" role="tabpanel"
-                                aria-labelledby="heading3">
-                                <div class="panel-body p-5">
-                                    <blockquote>
-                                        <p>Our scale is so big. We have over 60,000 employees. Per user, year over year, that all adds up.</p>
-                                            <footer>User research interview with Russ Nichols, Agency Information Officer, CA Department of Corrections and Rehabilitation</footer>
-                                    </blockquote>
 
-                                    <p>Many of the jobs to be done across government involve common needs and tasks. 
-                                    </p>
-
-                                    <p>There are common needs to deliver services to the public. When we examined large technology projects in planning across the state we found 79 case management systems across 22 departments; 45 reporting systems across 15 departments; 27 licensing systems across 23 departments; 23 claims management systems across 7 departments and 20 content management systems across 10 departments.
-                                    </p>
-
-                                    <p>There are also common infrastructure needs, ranging from document management and electronic signatures to identity authentication, verification and validation. 
-                                    </p>
-
-
-
-                                    <p>Instead of tackling these problems with a collective approach, the state environment makes it easier for departments and programs to pursue individual projects. In some cases, it is difficult for programs to simply and easily reuse what has been successful elsewhere. 
-
-                                    </p>
-
-                                    <p>To deliver value to users more quickly, we must pool our investments and efforts into a shared digital infrastructure. We can do this by using common technology that can be adapted, shared and reused across the state. For most common problems, this will mean developing a suite of demonstrated approaches to be used by default, unless exceptions are met. 
-                                    </p>
-
-                                    <p>To build this shared infrastructure, we will need to practice and develop expertise in working at scale. We will need to make it easier and faster for teams to apply shared experience and patterns to solve problems. And we will need to make it easier and faster for teams to acquire modern, common technology for common needs like document management, helpdesk and support services, and identity authentication and verification.
-                                    </p>
-                                    <blockquote>
-                                        <p>How can we work together in one shared environment, as one organization?</p>
-                                        <footer>User research interview with Krista Canellakis, Deputy Secretary for General Services, Government Operations Agency</footer>
-                                    </blockquote>
-
-                                    <p>Staff in different departments need to be able to find each other in seconds, collaborate on documents and data in real-time and chat on video, no matter where they are. They need consistent, easy access to the modern tools to do their jobs, from analyzing or sharing data to managing projects. 
-                                    </p>
-                                    <p>Centralizing and standardizing on common technology choices make it easier for us to take advantage of our scale as the world’s fifth-largest economy. We have a duty to use our size to deliver better services at a responsible cost, allowing us to use our public funds to better serve people. This does not mean locking the state into a single choice, or vendor or inflexible static standards. It means understanding user needs and providing managed choices and flexibility. 
-                                    </p>
-                                    <p>Most importantly, achieving this goal will make it faster and easier for teams to solve actual Californians’ problems, such as receiving emergency grant funding, starting businesses or finding child care. 
-                                    </p>
-
-                                    <a class="btn btn-secondary"
-                                        href="https://ca-code-works.github.io/Vision-2023/challenge/three.html"
-                                        title="Goal #3 challenges">Explore this goal's challenges</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading4">
-                                <h4 class="panel-title">
-                                    <a class="collapsed h3 m-0" data-toggle="collapse" data-parent="#example-accordion"
-                                        href="#collapse4" aria-controls="collapse4">4. Build digital government more quickly and more effectively</a>
-                                </h4>
-                            </div>
-                            <div id="collapse4" class="panel-collapse collapse" role="tabpanel"
-                                aria-labelledby="heading4">
-                                <div class="panel-body p-5">
-                                    <p>The COVID-19 pandemic forced our government to adapt rapidly and rethink how we serve 40 million Californians. We had to adapt our older technology and implement new solutions to help people quickly, sometimes in just days. 
-                                    </p>
-
-                                    <p>In our work, we found departments hungry to use technology to dramatically improve service delivery and outcomes. But they felt that technology is not doing as much as it should. We heard from leaders and program teams about how it is difficult to make such improvements quickly and effectively. 
-                                    </p>
-
-                                    <p>Part of how we will build digital government faster and more effectively is addressed by our goal of making common technology easy to access, use, share and reuse across government. But common technology is only part of the answer. 
-                                    </p>
-
-                                    <p>The situation can be more complicated when it comes to the technology that supports core public services. 
-                                    </p>
-
-                                    <p>Some of the foundations of our government are large complex programs. These programs usually involve older technology infrastructure (“legacy” technology, often running on state mainframes). Achieving our vision requires successful, replicable approaches so these kinds of programs can quickly and efficiently meet people’s continually changing needs. 
-                                    </p>
-
-                                    <p>Technological improvements are typically scoped and implemented as “projects.” There are defined requirements, budgets and schedules pre-specified years before completion. The process to approve these projects can take years. Technology investments should receive approvals and oversight. But there is growing recognition across agencies, departments, legislative staff and the Legislative Analyst’s Office that we need pathways to get to better faster.
-                                    </p>
-                                    <p>Last, there is a common desire for learning from our collective experiences using technology to improve public services across the state. Even though the particulars may vary, every technology investment is an opportunity to improve our knowledge about how to build digital government. Building digital government more quickly, and more effectively requires making success easy to copy, and making failures easy to learn from. 
-                                    </p>
-
-                                    <a class="btn btn-secondary"
-                                        href="https://ca-code-works.github.io/Vision-2023/challenge/four.html"
-                                        title="Goal #4 challenges">Explore this goal's challenges</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading5">
-                                <h4 class="panel-title">
-                                    <a class="collapsed h3 m-0" data-toggle="collapse" data-parent="#example-accordion"
-                                        href="#collapse5" aria-controls="collapse5">5. Build confident, empowered multi-disciplinary teams</a>
-                                </h4>
-                            </div>
-                            <div id="collapse5" class="panel-collapse collapse" role="tabpanel"
-                                aria-labelledby="heading5">
-                                <div class="panel-body p-5">
-                                    <blockquote>
-                                        <p>Technology is a product of the culture that builds it.</p>
-                                            <footer>Kellan Elliott-McCrea, former Chief Technology Officer, Etsy </footer>
-                                    </blockquote>
-
-                                    <blockquote>
-                                        <p>It’s hard for me as a director when I don’t have IT project experience.</p>
-                                            <footer>User research interview with Eraina Ortega, Director, California Department of Human Resources </footer>
-                                    </blockquote>
-
-                                    <p>Our public servants are smart and dedicated. They want to spend their time on hard problems, and for technology to remove routine items from their plate. 
-                                    </p>
-
-                                    <p>Agency, departmental and technology leaders candidly told us about wanting to avoid the failure of bold initiatives. They told us about being scared by technical jargon, not knowing what’s possible or where to start, but being eager and willing to learn. 
-                                    </p>
-
-                                    <p>All state staff shared the need for an environment that supports learning and of the need for consistent support and guidance. Empowered teams need safe places to learn, where they can speak up, test new ideas and have tough conversations. This means acknowledging not only where we fall short, but also the risks of not changing. We must create spaces for empowered teams to build, release, learn and improve.
-                                    </p>
-
-                                    <p>We also heard loudly that progress means bringing new skills, experience and talent into government. New, critical services like COVID-19 notifications were possible because we hired or partnered to bring designers, user researchers, data engineers and more into our teams.
-                                    </p>
-
-                                    <p>We can’t form these teams without technology companies and the vendor community. When COVID-19 forced the state to drop the requirement for vendors to be on-site it became easier for the state to acquire skills, significantly increasing the pool of vendors with which to collaborate. Remote, multi-disciplinary teams allowed the state to experiment with and gain an understanding of what skills were needed, how these skills could be best obtained, and lastly, how they can be developed. 
-                                    </p>
-
-                                    <p>Technology does not solve problems alone. Successful departments and teams organize themselves around common goals, working across silos, from the bottom up and from the executive level down. Executives should build and create space for multi-disciplinary teams from the beginning. These teams are not successful when space for them is created and supported as an afterthought. 
-                                    </p>
-
-                                    <p>No one person has the right answers to the most important problems. More importantly, because change is a constant, the right answer today may not be the right answer in the future. We need to invest in the people, teams, and culture that will help continually learn and solve problems. 
-                                    </p>
-
-                                    <p>Knowing how to do this cannot be hard to figure out. But developing the people, skills and culture of continually learning and solving problems across all of government is a long-term goal. We need to celebrate and learn from the teams who are doing this well, and share that knowledge widely. We need to make it easy to create open spaces, build multi-disciplinary teams and hire the best vendors to complement our staff.
-                                    </p>
-                                    <p>In the end, our people and teams are those who do the work. Together, they will build the infrastructure we need, understand the problems that need solving and deliver our vision of compassionate, human-centered, effective and efficient government.
-                                    </p>
-
-                                    <a class="btn btn-secondary"
-                                        href="https://ca-code-works.github.io/Vision-2023/challenge/five.html"
-                                        title="Goal #5 challenges">Explore this goal's challenges</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-
-
                 </div>
             </div>
-        </div>
 
 
 
-        <!-- components/det-involved.js reusable component -->
-        <get-involved></get-involved>
+            <!-- components/det-involved.js reusable component -->
+            <get-involved></get-involved>
 
 
-        <download-pdf></download-pdf>
+            <download-pdf></download-pdf>
 
 
-        <div class="section-standout p-y-lg">
-            <div class="container">
+            <div class="section-standout p-y-lg">
+                <div class="container">
 
-                <!-- components/footer-links.js component -->
-                <footer-links></footer-links>
+                    <!-- components/footer-links.js component -->
+                    <footer-links></footer-links>
+                </div>
             </div>
-        </div>
 
+        </div>
     </div>
     <span class="return-top"></span>
-
 
     <!-- Global Footer -->
     <footer id="footer" class="global-footer">
@@ -521,39 +677,38 @@
         <!-- Copyright Statement -->
         <div class="copyright">
             <div class="container">
-                Copyright ©
-                <script>document.write(new Date().getFullYear())</script> State of California
+                Copyright © <span id="year"></span> State of California
             </div>
         </div>
-
     </footer>
-
+    
+    <link rel="preload" href="/fonts/Montserrat-Light.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Montserrat-Regular.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Montserrat-Medium.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Montserrat-Bold.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/CaGov.ttf?ocljyw" as="font" crossorigin="anonymous" />
     <!-- Extra Decorative Content -->
     <div class="decoration-last">&nbsp;</div>
 
+    <!--LOAD COMPONENTS-->
+    <script preload src="./components/main.js"></script>
 
+    <!-- Required JS -->
+    <script src="/js/libs/jquery.js" type="text/javascript"></script>
+    <script defer src="/js/libs/jquery-migrate.min.js" type="text/javascript"></script>
 
     <!-- Load template core -->
-    <script src="/js/cagov.core.js"></script>
-
-
-    <!--LOAD COMPONENTS-->
-    <!--LOAD COMPONENTS-->
-    <script src="/components/main-nav.js"></script>
-    <script src="/components/utility-links.js"></script>
-    <script src="/components/get-involved.js"></script>
-    <script src="/components/download-pdf.js"></script>
-    <script src="/components/footer-links.js"></script>
-    <script src="/components/footer-nav.js"></script>
+    <script src="/js/cagov.core.min.js"></script>
 
     <!--Translate -->
-    <script type="text/javascript"
-        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" defer
+        bsrc="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
-        }</script>
-
+        }
+        window.onload = googleTranslateElementInit
+    </script>
 </body>
 
 </html>

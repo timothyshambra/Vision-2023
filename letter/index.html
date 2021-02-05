@@ -10,15 +10,6 @@
     <meta name="keywords" content="Vision 2023, innovative, Technology, Solutions, California">
     <title>Vision 2023 | Letter from the State CIO and Deputy State CIO</title>
 
-    <!-- State Template CDN CSS -->
-    <link rel="stylesheet" href="/css/cagov.core.css">
-    <link rel="stylesheet" href="/css/colorscheme-oceanside.css"> <!-- Modified -->
-
-    <!-- Required JS -->
-
-    <script src="/js/libs/jquery.js" type="text/javascript"></script>
-    <script src="/js/libs/jquery-migrate.min.js" type="text/javascript"></script>
-
     <!-- apple touch icons -->
     <link rel="apple-touch-icon-precomposed" sizes="100x100"
         href="https://california.azureedge.net/cdt/statetemplate/5.5.18/images/apple-touch-icon-precomposed.png">
@@ -42,8 +33,6 @@
         href="https://california.azureedge.net/cdt/statetemplate/5.5.18/images/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon"
         href="https://california.azureedge.net/cdt/statetemplate/5.5.18/images/apple-touch-icon.png">
-
-    <!-- For everything else -->
     <link rel="shortcut icon" href="/favicon.ico">
 
     <!-- Activate ClearType for Mobile IE -->
@@ -58,44 +47,44 @@
     <!---FORM  -->
 
     <!-- Insert everything below in the <body>. -->
-    <!--ANALYTICS-->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3419582-2"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    //statewide GA property
-    gtag('config', 'UA-3419582-2');
-    //please update state department UA code in line below before deployment	
-    gtag('config', 'UA-21974567-43');
-    //un-comment line below and update UA code to add a third GA property
-    //gtag('config', 'UA-xxxxxx-xx');
-
-    var getOutboundLink = function (url) {
-        gtag('event', 'click', {
-        'event_category': 'navigation',
-        'event_label': 'outbound link: ' + url,
-        'transport_type': 'beacon',
-        'event_callback': function () { document.location = url; }
-        });
-    }
-
-    var trackDownload = function (filename) {
-        gtag('event', 'click', {
-        'event_category': 'download',
-        'event_label': 'file: ' + filename,
-        'transport_type': 'beacon',
-        'event_callback': function () { document.location = url; }
-        });
-    }
-    </script>
     <style>
         .section-primary {
             background: rgb(30, 19, 105);
             background: linear-gradient(90deg, rgba(30, 19, 105, 1) 0%, rgba(59, 19, 105, 1) 100%);
         }
     </style>
+
+    <!-- State Template CDN CSS -->
+    <link rel="stylesheet" href="/css/cagov.core.css">
+    <link rel="stylesheet" href="/css/colorscheme-oceanside.css"> <!-- Modified -->
+
+    <!--ANALYTICS-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-21974567-43"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-21974567-43');
+
+        var getOutboundLink = function (url) {
+            gtag('event', 'click', {
+                'event_category': 'navigation',
+                'event_label': 'outbound link: ' + url,
+                'transport_type': 'beacon',
+                'event_callback': function () { document.location = url; }
+            });
+        }
+
+        var trackDownload = function (filename) {
+            gtag('event', 'click', {
+                'event_category': 'download',
+                'event_label': 'file: ' + filename,
+                'transport_type': 'beacon',
+                'event_callback': function () { document.location = url; }
+            });
+        }
+    </script>
 </head>
 
 <body style="position: relative; min-height: 100%; top: 0px;">
@@ -236,12 +225,12 @@
                         <p class="mb-4">We are proud to share a vision for California’s future that dreams big, focuses
                             on the next three years, and sets out a bold direction for the years to come. </p>
                         <p class="mb-4">Our vision is for <strong>more efficient and effective government, improving at
-                            an exponential rate</strong>. Our current pace of transformation simply isn’t fast
+                                an exponential rate</strong>. Our current pace of transformation simply isn’t fast
                             enough to meet the needs of the Californians we serve.
                         </p>
                         <p class="mb-4">But becoming more efficient and more effective isn’t the full story. </p>
                         <p class="mb-4">Our vision is of <strong>technology powering compassionate, human-centered
-                            government</strong>.</p>
+                                government</strong>.</p>
                         <p class="mb-4">In our vision, all public services will be easy to use, accessible and reliable,
                             ready and available wherever and whenever needed.</p>
                         <p class="mb-4">California is the world leader in radically improving people’s lives by
@@ -282,33 +271,49 @@
         <div class="container">
             <div class="row">
                 <div class="three-quarters">
+
                     <!-- components/footer-nav.js component -->
                     <footer-nav></footer-nav>
+
                 </div>
+
             </div>
+
         </div>
         <!-- Copyright Statement -->
         <div class="copyright">
             <div class="container">
-                Copyright ©
-                <script>document.write(new Date().getFullYear())</script> State of California
+                Copyright © <span id="year"></span> State of California
             </div>
         </div>
     </footer>
-
+    <link rel="preload" href="/fonts/Montserrat-Light.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Montserrat-Regular.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Montserrat-Medium.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Montserrat-Bold.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/CaGov.ttf?ocljyw" as="font" crossorigin="anonymous" />
     <!-- Extra Decorative Content -->
     <div class="decoration-last">&nbsp;</div>
 
-    <!-- Load template core -->
-    <script src="/js/cagov.core.js"></script>
-
     <!--LOAD COMPONENTS-->
-    <script src="/components/main-nav.js"></script>
-    <script src="/components/utility-links.js"></script>
-    <script src="/components/get-involved.js"></script>
-    <script src="/components/download-pdf.js"></script>
-    <script src="/components/footer-links.js"></script>
-    <script src="/components/footer-nav.js"></script>
+    <script preload src="/components/main.js"></script>
+
+    <!-- Required JS -->
+    <script src="/js/libs/jquery.js" type="text/javascript"></script>
+    <script defer src="/js/libs/jquery-migrate.min.js" type="text/javascript"></script>
+
+    <!-- Load template core -->
+    <script src="/js/cagov.core.min.js"></script>
+
+    <!--Translate -->
+    <script type="text/javascript" defer
+        bsrc="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+        window.onload = googleTranslateElementInit
+    </script>
 </body>
 
 </html>

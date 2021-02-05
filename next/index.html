@@ -10,19 +10,6 @@
     <meta name="keywords" content="Vision 2023, innovative, Technology, Solutions, California">
     <title>Vision 2023 | What is next</title>
 
-
-
-
-
-    <!-- State Template CDN CSS -->
-    <link rel="stylesheet" href="/css/cagov.core.css">
-    <link rel="stylesheet" href="/css/colorscheme-oceanside.css"> <!-- Modified -->
-
-    <!-- Required JS -->
-
-    <script src="/js/libs/jquery.js" type="text/javascript"></script>
-    <script src="/js/libs/jquery-migrate.min.js" type="text/javascript"></script>
-
     <!-- apple touch icons -->
     <link rel="apple-touch-icon-precomposed" sizes="100x100"
         href="https://california.azureedge.net/cdt/statetemplate/5.5.18/images/apple-touch-icon-precomposed.png">
@@ -46,8 +33,6 @@
         href="https://california.azureedge.net/cdt/statetemplate/5.5.18/images/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon"
         href="https://california.azureedge.net/cdt/statetemplate/5.5.18/images/apple-touch-icon.png">
-
-    <!-- For everything else -->
     <link rel="shortcut icon" href="/favicon.ico">
 
     <!-- Activate ClearType for Mobile IE -->
@@ -62,44 +47,44 @@
     <!---FORM  -->
 
     <!-- Insert everything below in the <body>. -->
-    <!--ANALYTICS-->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-21974567-43"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    //statewide GA property
-    gtag('config', 'UA-3419582-2');
-    //please update state department UA code in line below before deployment	
-    gtag('config', 'UA-21974567-43');
-    //un-comment line below and update UA code to add a third GA property
-    //gtag('config', 'UA-xxxxxx-xx');
-
-    var getOutboundLink = function (url) {
-        gtag('event', 'click', {
-        'event_category': 'navigation',
-        'event_label': 'outbound link: ' + url,
-        'transport_type': 'beacon',
-        'event_callback': function () { document.location = url; }
-        });
-    }
-
-    var trackDownload = function (filename) {
-        gtag('event', 'click', {
-        'event_category': 'download',
-        'event_label': 'file: ' + filename,
-        'transport_type': 'beacon',
-        'event_callback': function () { document.location = url; }
-        });
-    }
-    </script>
     <style>
         .section-primary {
             background: rgb(30, 19, 105);
             background: linear-gradient(90deg, rgba(30, 19, 105, 1) 0%, rgba(59, 19, 105, 1) 100%);
         }
     </style>
+
+    <!-- State Template CDN CSS -->
+    <link rel="stylesheet" href="/css/cagov.core.css">
+    <link rel="stylesheet" href="/css/colorscheme-oceanside.css"> <!-- Modified -->
+
+    <!--ANALYTICS-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-21974567-43"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-21974567-43');
+
+        var getOutboundLink = function (url) {
+            gtag('event', 'click', {
+                'event_category': 'navigation',
+                'event_label': 'outbound link: ' + url,
+                'transport_type': 'beacon',
+                'event_callback': function () { document.location = url; }
+            });
+        }
+
+        var trackDownload = function (filename) {
+            gtag('event', 'click', {
+                'event_category': 'download',
+                'event_label': 'file: ' + filename,
+                'transport_type': 'beacon',
+                'event_callback': function () { document.location = url; }
+            });
+        }
+    </script>
 </head>
 
 <body style="position: relative; min-height: 100%; top: 0px;">
@@ -124,7 +109,6 @@
 
                         <!--componetns/utility-links.js component-->
                         <utility-links></utility-links>
-
 
                     </div>
                 </div>
@@ -236,31 +220,47 @@
                     <div class="col-md-8 mx-auto">
                         <p class="lead">Our vision sets the direction. Up next: the work.</p>
                         <h2 id="one">Prioritizing challenges</h2>
-                        <p>We have identified critical challenges that we need to resolve to make meaningful progress towards our goals over the next three years. 
+                        <p>We have identified critical challenges that we need to resolve to make meaningful progress
+                            towards our goals over the next three years.
                         </p>
-                        <p>These challenges aren’t written into stone. We need your help to identify any critical challenges we may have missed, and your input into which are the most important to start with and why. We will also need to decide what not to do. 
+                        <p>These challenges aren’t written into stone. We need your help to identify any critical
+                            challenges we may have missed, and your input into which are the most important to start
+                            with and why. We will also need to decide what not to do.
                         </p>
                         <h2 id="two">Building challenge teams</h2>
-                        <p>We are putting out a call for leaders who want to own, shape and guide the work to design and achieve Vision 2023’s statewide objectives and key results. 
+                        <p>We are putting out a call for leaders who want to own, shape and guide the work to design and
+                            achieve Vision 2023’s statewide objectives and key results.
                         </p>
-                        <p>These are statewide challenges that require diverse perspectives and engagement to accelerate meaningful improvement. 
+                        <p>These are statewide challenges that require diverse perspectives and engagement to accelerate
+                            meaningful improvement.
                         </p>
                         <p>Each challenge will require three roles: leaders, doers, and advisors. </p>
-                        <p><strong>If the challenges inspire you to take on any of these roles, please register your interest for specific initiatives here.</strong></p>
+                        <p><strong>If the challenges inspire you to take on any of these roles, please register your
+                                interest for specific initiatives here.</strong></p>
                         <ul class="font-weight-light">
-                            <li>Leader(s): passionate about solving the problem and excited to build the multi-disciplinary team to make continuous, tangible progress. Responsible for solving the challenges and able to gain executive support to invest significant time to lead the initiative. </li>
-                            <li>Doers: willing and able to roll up their sleeves to help deliver key results. Typically overlaps with your day-job and able to get support from your leadership team to dedicate the time to do the work well. This will require not doing other things. </li>
-                            <li>Advisors: bring relevant expertise or experience that can help shape successful initiatives, including from outside state government! </li>
+                            <li>Leader(s): passionate about solving the problem and excited to build the
+                                multi-disciplinary team to make continuous, tangible progress. Responsible for solving
+                                the challenges and able to gain executive support to invest significant time to lead the
+                                initiative. </li>
+                            <li>Doers: willing and able to roll up their sleeves to help deliver key results. Typically
+                                overlaps with your day-job and able to get support from your leadership team to dedicate
+                                the time to do the work well. This will require not doing other things. </li>
+                            <li>Advisors: bring relevant expertise or experience that can help shape successful
+                                initiatives, including from outside state government! </li>
                         </ul>
                         <h2 id="three">Developing objectives and key results</h2>
-                        <p>In early 2021, Challenge Teams will co-develop the objectives and key results that describe what we want to accomplish this coming year. 
+                        <p>In early 2021, Challenge Teams will co-develop the objectives and key results that describe
+                            what we want to accomplish this coming year.
                         </p>
-                        <p>The objectives and key results for each Challenge Team are how we will keep ourselves accountable. They will show whether we have done what we said we would do. 
+                        <p>The objectives and key results for each Challenge Team are how we will keep ourselves
+                            accountable. They will show whether we have done what we said we would do.
                         </p>
                         <h2 id="four">Doing the work</h2>
-                        <p>Team leaders will manage progress, check-in with the teams working to achieve key results and flag emerging issues throughout the year. 
+                        <p>Team leaders will manage progress, check-in with the teams working to achieve key results and
+                            flag emerging issues throughout the year.
                         </p>
-                        <p>The quarter before the end of the calendar year, we will ask each team to brainstorm the next years’ key results, and reflect and score progress against this year's key results. </p>
+                        <p>The quarter before the end of the calendar year, we will ask each team to brainstorm the next
+                            years’ key results, and reflect and score progress against this year's key results. </p>
                     </div>
                 </div>
             </div>
@@ -272,7 +272,7 @@
 
         <download-pdf></download-pdf>
 
-        
+
         <div class="section-standout p-y-lg">
             <div class="container">
 
@@ -283,7 +283,6 @@
 
     </div>
     <span class="return-top"></span>
-
 
     <!-- Global Footer -->
     <footer id="footer" class="global-footer">
@@ -302,39 +301,37 @@
         <!-- Copyright Statement -->
         <div class="copyright">
             <div class="container">
-                Copyright ©
-                <script>document.write(new Date().getFullYear())</script> State of California
+                Copyright © <span id="year"></span> State of California
             </div>
         </div>
-
     </footer>
-
+    <link rel="preload" href="/fonts/Montserrat-Light.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Montserrat-Regular.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Montserrat-Medium.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Montserrat-Bold.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/CaGov.ttf?ocljyw" as="font" crossorigin="anonymous" />
     <!-- Extra Decorative Content -->
     <div class="decoration-last">&nbsp;</div>
 
+    <!--LOAD COMPONENTS-->
+    <script preload src="/components/main.js"></script>
 
+    <!-- Required JS -->
+    <script src="/js/libs/jquery.js" type="text/javascript"></script>
+    <script defer src="/js/libs/jquery-migrate.min.js" type="text/javascript"></script>
 
     <!-- Load template core -->
-    <script src="/js/cagov.core.js"></script>
-
-
-    <!--LOAD COMPONENTS-->
-    <!--LOAD COMPONENTS-->
-    <script src="/components/main-nav.js"></script>
-    <script src="/components/utility-links.js"></script>
-    <script src="/components/get-involved.js"></script>
-    <script src="/components/download-pdf.js"></script>
-    <script src="/components/footer-links.js"></script>
-    <script src="/components/footer-nav.js"></script>
-
+    <script src="/js/cagov.core.min.js"></script>
 
     <!--Translate -->
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" defer
+        bsrc="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
-        }</script>
-
+        }
+        window.onload = googleTranslateElementInit
+    </script>
 </body>
 
 </html>

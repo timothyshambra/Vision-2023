@@ -10,10 +10,6 @@
     <meta name="keywords" content="Vision 2023, innovative, Technology, Solutions, California">
     <title>Vision 2023 | Our process</title>
 
-
-
-
-
     <!-- State Template CDN CSS -->
     <link rel="stylesheet" href="/css/cagov.core.css">
     <link rel="stylesheet" href="/css/colorscheme-oceanside.css"> <!-- Modified -->
@@ -62,44 +58,44 @@
     <!---FORM  -->
 
     <!-- Insert everything below in the <body>. -->
-    <!--ANALYTICS-->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-21974567-43"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    //statewide GA property
-    gtag('config', 'UA-3419582-2');
-    //please update state department UA code in line below before deployment	
-    gtag('config', 'UA-21974567-43');
-    //un-comment line below and update UA code to add a third GA property
-    //gtag('config', 'UA-xxxxxx-xx');
-
-    var getOutboundLink = function (url) {
-        gtag('event', 'click', {
-        'event_category': 'navigation',
-        'event_label': 'outbound link: ' + url,
-        'transport_type': 'beacon',
-        'event_callback': function () { document.location = url; }
-        });
-    }
-
-    var trackDownload = function (filename) {
-        gtag('event', 'click', {
-        'event_category': 'download',
-        'event_label': 'file: ' + filename,
-        'transport_type': 'beacon',
-        'event_callback': function () { document.location = url; }
-        });
-    }
-    </script>
     <style>
         .section-primary {
             background: rgb(30, 19, 105);
             background: linear-gradient(90deg, rgba(30, 19, 105, 1) 0%, rgba(59, 19, 105, 1) 100%);
         }
     </style>
+
+    <!-- State Template CDN CSS -->
+    <link rel="stylesheet" href="/css/cagov.core.css">
+    <link rel="stylesheet" href="/css/colorscheme-oceanside.css"> <!-- Modified -->
+
+    <!--ANALYTICS-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-21974567-43"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-21974567-43');
+
+        var getOutboundLink = function (url) {
+            gtag('event', 'click', {
+                'event_category': 'navigation',
+                'event_label': 'outbound link: ' + url,
+                'transport_type': 'beacon',
+                'event_callback': function () { document.location = url; }
+            });
+        }
+
+        var trackDownload = function (filename) {
+            gtag('event', 'click', {
+                'event_category': 'download',
+                'event_label': 'file: ' + filename,
+                'transport_type': 'beacon',
+                'event_callback': function () { document.location = url; }
+            });
+        }
+    </script>
 </head>
 
 <body style="position: relative; min-height: 100%; top: 0px;">
@@ -235,34 +231,45 @@
                 <div class="row">
                     <div class="col-md-8 mx-auto">
 
-                        <p class="lead bold">To understand how technology can meet our vision and better serve the California public, we held more than 60 interviews and meetings with: </p>
+                        <p class="lead bold">To understand how technology can meet our vision and better serve the
+                            California public, we held more than 60 interviews and meetings with: </p>
                         <ul class="font-weight-light list-primary" style="list-style:none">
-                            <li class="lead">State government technology executives and leaders (Agency Information Officers, Chief Information Officers, and the California Department of Technology’s leadership and enterprise architects);</li>
+                            <li class="lead">State government technology executives and leaders (Agency Information
+                                Officers, Chief Information Officers, and the California Department of Technology’s
+                                leadership and enterprise architects);</li>
                             <li class="lead">Agency, department and business executives and leaders; </li>
                             <li class="lead">Staff representing the legislative and judicial branches;</li>
                             <li class="lead">Local government leaders; and</li>
                             <li class="lead">Technology companies and the civic technology community.</li>
                         </ul>
-                        <p>We received survey responses from nearly 8,000 staffers across 19 departments, supervisors and managers at the California Department of Technology, and Chief Information Officers. 
+                        <p>We received survey responses from nearly 8,000 staffers across 19 departments, supervisors
+                            and managers at the California Department of Technology, and Chief Information Officers.
                         </p>
-                        <p>We ran an open collaboration session and survey with technology companies, and also reached out to companies that have never worked with the state.
+                        <p>We ran an open collaboration session and survey with technology companies, and also reached
+                            out to companies that have never worked with the state.
                         </p>
-                        <p>We reviewed technology reports from the Legislative Analyst’s Office and the California State Auditor, and the Employment Development Department Strike Team’s detailed assessment and recommendations. 
+                        <p>We reviewed technology reports from the Legislative Analyst’s Office and the California State
+                            Auditor, and the Employment Development Department Strike Team’s detailed assessment and
+                            recommendations.
                         </p>
-                        <p>Finally, we reviewed industry reports and researched the experiences, successes and challenges of civic technologists and governments across the United States and the world. 
+                        <p>Finally, we reviewed industry reports and researched the experiences, successes and
+                            challenges of civic technologists and governments across the United States and the world.
                         </p>
-                        <p>Through our work, we learned about how technology is used, planned for, managed and bought in our state. We listened to what people told us they need to use technology well. We found common, repeated problems and learned about how people have solved them. 
+                        <p>Through our work, we learned about how technology is used, planned for, managed and bought in
+                            our state. We listened to what people told us they need to use technology well. We found
+                            common, repeated problems and learned about how people have solved them.
                         </p>
-                        <p>The insights gleaned have helped shape and inspire this vision. 
+                        <p>The insights gleaned have helped shape and inspire this vision.
                         </p>
-                        <p>We have intentionally written this vision as simple as possible to keep it accessible. Our full research insights will be published on this website shortly. 
+                        <p>We have intentionally written this vision as simple as possible to keep it accessible. Our
+                            full research insights will be published on this website shortly.
                         </p>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
-       
+
 
         <!-- components/det-involved.js reusable component -->
         <get-involved></get-involved>
@@ -283,51 +290,48 @@
         <div class="container">
             <div class="row">
                 <div class="three-quarters">
-
                     <!-- components/footer-nav.js component -->
                     <footer-nav></footer-nav>
 
                 </div>
-
             </div>
-
         </div>
         <!-- Copyright Statement -->
         <div class="copyright">
             <div class="container">
-                Copyright ©
-                <script>document.write(new Date().getFullYear())</script> State of California
+                Copyright © <span id="year"></span> State of California
             </div>
         </div>
-
     </footer>
+
+    <link rel="preload" href="/fonts/Montserrat-Light.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Montserrat-Regular.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Montserrat-Medium.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/Montserrat-Bold.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="/fonts/CaGov.ttf?ocljyw" as="font" crossorigin="anonymous" />
 
     <!-- Extra Decorative Content -->
     <div class="decoration-last">&nbsp;</div>
 
+    <!--LOAD COMPONENTS-->
+    <script preload src="/components/main.js"></script>
 
+    <!-- Required JS -->
+    <script src="/js/libs/jquery.js" type="text/javascript"></script>
+    <script defer src="/js/libs/jquery-migrate.min.js" type="text/javascript"></script>
 
     <!-- Load template core -->
-    <script src="/js/cagov.core.js"></script>
-
-
-    <!--LOAD COMPONENTS-->
-    <!--LOAD COMPONENTS-->
-    <script src="/components/main-nav.js"></script>
-    <script src="/components/utility-links.js"></script>
-    <script src="/components/get-involved.js"></script>
-    <script src="/components/download-pdf.js"></script>
-    <script src="/components/footer-links.js"></script>
-    <script src="/components/footer-nav.js"></script>
-
+    <script src="/js/cagov.core.min.js"></script>
 
     <!--Translate -->
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" defer
+        bsrc="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
-        }</script>
-
+        }
+        window.onload = googleTranslateElementInit
+    </script>
 </body>
 
 </html>

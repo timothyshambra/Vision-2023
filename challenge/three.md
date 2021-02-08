@@ -1,4 +1,4 @@
-# Challenge 3: Make common technology easy to access, use, share and reuse across government
+# Goal 3: Make common technology easy to access, use, share and reuse across government
 
 >“Our scale is so big. We have over 60,000 employees. Per user, year over year, that all adds up.” - User research interview with Russ Nichols, Agency Information Officer, CA Department of Corrections and Rehabilitation
 

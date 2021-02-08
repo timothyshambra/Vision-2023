@@ -1,4 +1,4 @@
-# Challenge 2: Ensure public services are equitable and inclusive
+# Goal 2: Ensure public services are equitable and inclusive
 
 >“It feels like we assume the public are upper-middle-class white people with college degrees.” - User research interview with Christian Griffith, Chief Consultant, Assembly Budget Committee
 

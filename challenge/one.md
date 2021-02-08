@@ -1,4 +1,4 @@
-# Challenge 1: Deliver easy-to-use, fast, dependable and secure public services
+# Goal 1: Deliver easy-to-use, fast, dependable and secure public services
 
 
 >“Claimants shouldn't have to understand the structure of a department to receive benefits they’ve already paid for.” - User research interview with Carol Williams, Chief Deputy Director of Operations, Employment Development Department

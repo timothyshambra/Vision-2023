@@ -1,4 +1,4 @@
-# Challenge 4: Build digital government more quickly and more effectively
+# Goal 4: Build digital government more quickly and more effectively
 
 The COVID-19 pandemic forced our government to adapt rapidly and rethink how we serve 40 million Californians. We had to adapt our older technology and implement new solutions to help people quickly, sometimes in just days. 
 
